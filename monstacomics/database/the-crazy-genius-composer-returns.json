@@ -2,7 +2,31 @@
     "slug": "the-crazy-genius-composer-returns",
     "title": "The Crazy Genius Composer Returns",
     "cover": "https://files.catbox.moe/0pkxzs.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Sukses, kehormatan, keluarga… Min Hyun-seung, bla bla bla.. alah kelamaan.. baca ae lah...pokoknya regresi."
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-10",
+            "images": [
+                "https://files.catbox.moe/lt9qit.webp",
+                "https://files.catbox.moe/4ouzi7.webp",
+                "https://files.catbox.moe/a4nj8j.webp",
+                "https://files.catbox.moe/ieb9xx.webp",
+                "https://files.catbox.moe/ftnfr5.webp",
+                "https://files.catbox.moe/z2ajbr.webp",
+                "https://files.catbox.moe/ivp0s8.webp",
+                "https://files.catbox.moe/49tkja.webp",
+                "https://files.catbox.moe/joy0m4.webp",
+                "https://files.catbox.moe/5619vs.webp",
+                "https://files.catbox.moe/h64653.webp",
+                "https://files.catbox.moe/4vaozj.webp",
+                "https://files.catbox.moe/d5wgcn.webp",
+                "https://files.catbox.moe/9swyzn.webp",
+                "https://files.catbox.moe/xmdqao.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
