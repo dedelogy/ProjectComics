@@ -2,7 +2,45 @@
     "slug": "voice-phishing-turns-your-life-around",
     "title": "Voice Phishing Turns Your Life Around",
     "cover": "https://files.catbox.moe/q55grr.webp",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "“Kami akan mengubah masa depan Anda!” Phishing suara yang menjanjikan kesempatan untuk mengubah hidup Anda dan layanan yang dapat diandalkan!Kang Joo-hyuk, mantan aktor nasional yang jatuh ke jurang dalam semalam, tinggal di sebuah kamar gelap tanpa cahaya. Hidup dalam kesakitan setiap hari.Suatu hari, sebuah Smartphone tak dikenal dikirimkan kepada Joo-hyuk. Serangkaian peristiwa terjadi yang akan mengubah hidup Joo-hyuk sepenuhnya. “Penipuan phishing suara yang datang kepada saya... apakah menjanjikan masa depan?”"
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-10",
+            "images": [
+                "https://files.catbox.moe/252kt3.jpg",
+                "https://files.catbox.moe/kheokh.webp",
+                "https://files.catbox.moe/8gdtj0.webp",
+                "https://files.catbox.moe/2jrvbr.webp",
+                "https://files.catbox.moe/lxxosd.webp",
+                "https://files.catbox.moe/0f8d7f.webp",
+                "https://files.catbox.moe/uv3p78.webp",
+                "https://files.catbox.moe/d86ohs.webp",
+                "https://files.catbox.moe/3bu2qv.webp",
+                "https://files.catbox.moe/hi8hje.webp",
+                "https://files.catbox.moe/l0r2l2.webp",
+                "https://files.catbox.moe/hdtx4u.webp",
+                "https://files.catbox.moe/zr1ddh.webp",
+                "https://files.catbox.moe/bnkt38.webp",
+                "https://files.catbox.moe/kd8377.webp",
+                "https://files.catbox.moe/130pg5.webp",
+                "https://files.catbox.moe/0q9c99.webp",
+                "https://files.catbox.moe/1mv50u.webp",
+                "https://files.catbox.moe/8cg5ap.webp",
+                "https://files.catbox.moe/mjhado.webp",
+                "https://files.catbox.moe/1xqazi.webp",
+                "https://files.catbox.moe/y8w6ry.webp",
+                "https://files.catbox.moe/tgfe36.webp",
+                "https://files.catbox.moe/7nyqxz.webp",
+                "https://files.catbox.moe/5zdaxr.webp",
+                "https://files.catbox.moe/tr0lpt.webp",
+                "https://files.catbox.moe/04vmi2.webp",
+                "https://files.catbox.moe/p3plzp.webp",
+                "https://files.catbox.moe/3ed3ro.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
