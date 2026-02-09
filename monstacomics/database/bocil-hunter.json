@@ -2,7 +2,55 @@
     "slug": "bocil-hunter",
     "title": "Bocil Hunter",
     "cover": "https://files.catbox.moe/ell42q.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Umurnya baru 4 tahun, tapi Groo udah jadi S-rank termuda di seluruh negeri. Sebagai “ace” kebanggaan kelas TK-nya (ngaku-ngaku sendiri sih), dia siap hadapi tantangan apa pun! Jadi pas quest pertamanya muncul dan nyuruh cari orang dewasa buat ngurusin dia, Groo langsung nekat datang ke guild paling top di Korea dan minta direkrut. Guildmaster yang sadar kalau bocah overpower ini nggak boleh jatuh ke tangan yang salah, akhirnya terpaksa mengadopsinya. Cuma dia nggak nyangka sama sekali—si mungil ini bakal bikin hidupnya jungkir balik!"
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-09",
+            "images": [
+                "https://files.catbox.moe/ed4h00.webp",
+                "https://files.catbox.moe/zrbwg7.webp",
+                "https://files.catbox.moe/1s1qi7.webp",
+                "https://files.catbox.moe/8h8ag2.webp",
+                "https://files.catbox.moe/4skhbx.webp",
+                "https://files.catbox.moe/568rkv.webp",
+                "https://files.catbox.moe/n2uwf5.webp",
+                "https://files.catbox.moe/jnydfp.webp",
+                "https://files.catbox.moe/9m83ul.webp",
+                "https://files.catbox.moe/31r0h7.webp",
+                "https://files.catbox.moe/6u3jjd.webp",
+                "https://files.catbox.moe/aofjth.webp",
+                "https://files.catbox.moe/9kb6fa.webp",
+                "https://files.catbox.moe/zbyanh.webp",
+                "https://files.catbox.moe/3rolaa.webp",
+                "https://files.catbox.moe/8sq9tv.webp",
+                "https://files.catbox.moe/wtv5t3.webp",
+                "https://files.catbox.moe/hty47r.webp",
+                "https://files.catbox.moe/z6f8iv.webp",
+                "https://files.catbox.moe/no39bl.webp",
+                "https://files.catbox.moe/ul2my2.webp",
+                "https://files.catbox.moe/y1hwai.webp",
+                "https://files.catbox.moe/yy3jl8.webp",
+                "https://files.catbox.moe/iet9k7.webp",
+                "https://files.catbox.moe/z2fneb.webp",
+                "https://files.catbox.moe/g8i006.webp",
+                "https://files.catbox.moe/etn4xp.webp",
+                "https://files.catbox.moe/cyzvu6.webp",
+                "https://files.catbox.moe/j1e4ae.webp",
+                "https://files.catbox.moe/pjswas.webp",
+                "https://files.catbox.moe/8n1wdi.webp",
+                "https://files.catbox.moe/7t5tsz.webp",
+                "https://files.catbox.moe/2ycu9h.webp",
+                "https://files.catbox.moe/xyekjg.webp",
+                "https://files.catbox.moe/em49q9.webp",
+                "https://files.catbox.moe/ilavjo.webp",
+                "https://files.catbox.moe/etj7g5.webp",
+                "https://files.catbox.moe/0z7rbu.webp",
+                "https://files.catbox.moe/47srk4.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
