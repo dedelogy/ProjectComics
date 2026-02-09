@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elite Viewer V3.7 - Orange Edition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        :root { --accent: #f7ad3e; }
+        body, html { background: #000; margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; color: white; font-family: sans-serif; }
+        #viewport { width: 100vw; height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; touch-action: none; z-index: 1; }
+        #view { max-width: 100%; max-height: 100%; transition: transform 0.2s ease-out; cursor: grab; user-select: none; -webkit-user-drag: none; }
+        .progress { position: fixed; bottom: 0; left: 0; height: 3px; background: var(--accent); z-index: 1000; transition: 0.3s; }
+        .loader { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; height: 30px; border: 3px solid #222; border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; display: none; }
+        @keyframes spin { to { transform: translate(-50%, -50%) rotate(360deg); } }
+        .nav-btn { position: fixed; top: 0; height: 100%; width: 15%; display: flex; align-items: center; justify-content: center; font-size: 30px; color: rgba(255,255,255,0.1); transition: 0.3s; cursor: pointer; z-index: 500; user-select: none; }
+        .nav-btn:hover { color: var(--accent); }
+        .info-tag { position: fixed; top: 15px; right: 20px; background: rgba(0,0,0,0.5); padding: 4px 10px; border-radius: 15px; font-size: 11px; z-index: 1001; pointer-events: none; }
+
+        #header-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; 
+            background: linear-gradient(to bottom, rgba(0,0,0,0.9) 60%, transparent);
+            padding: 20px; box-sizing: border-box; z-index: 2000;
+            transition: transform 0.3s ease; transform: translateY(0);
+        }
+        #header-overlay.hidden { transform: translateY(-100%); }
+        .comic-title { font-size: 14px; font-weight: bold; margin-bottom: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 85%; }
+        .meta-info { font-size: 11px; color: #aaa; display: flex; gap: 15px; }
+
+        #seekbar-overlay {
+            position: fixed; bottom: -180px; left: 0; width: 100%; height: 160px;
+            background: linear-gradient(to top, rgba(0,0,0,0.9) 70%, transparent);
+            z-index: 2000; transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex; flex-direction: column; align-items: center; pointer-events: none;
+        }
+        #seekbar-overlay.active { bottom: 0; pointer-events: auto; }
+        #seekbar-scroll {
+            width: 100%; height: 100px; margin-top: 15px;
+            display: flex; gap: 12px; padding: 0 50%;
+            overflow-x: auto; scroll-behavior: smooth;
+        }
+        #seekbar-scroll::-webkit-scrollbar { display: none; }
+        .thumb { flex: 0 0 65px; height: 90px; background: #222; border-radius: 5px; overflow: hidden; border: 2px solid transparent; transition: 0.2s; }
+        .thumb.current { border-color: var(--accent); transform: scale(1.1); }
+        .thumb img { width: 100%; height: 100%; object-fit: cover; opacity: 0.5; }
+        .thumb.current img { opacity: 1; }
+        .sb-text { font-size: 12px; color: var(--accent); font-weight: bold; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <div id="header-overlay">
+        <div class="comic-title" id="display-title">Loading...</div>
+        <div class="meta-info">
+            <span id="display-pages">📄 --</span>
+            <span id="display-res">📺 --</span>
+        </div>
+    </div>
+
+    <div id="viewport">
+        <img id="view" src="">
+        <div class="loader" id="loader"></div>
+    </div>
+    
+    <div class="nav-btn" style="left:0" onclick="prev()">❮</div>
+    <div class="nav-btn" style="right:0" onclick="next()">❯</div>
+
+    <div id="seekbar-overlay">
+        <div class="sb-text" id="sb-info">Page 1 / 1</div>
+        <div id="seekbar-scroll"></div>
+    </div>
+
+    <div class="progress" id="prog"></div>
+    <div class="info-tag" id="info">0 / 0</div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const comicPath = params.get('path');
+        const cleanPath = comicPath.replace('/files/', '');
+        
+        let pages = [], idx = parseInt(localStorage.getItem('prog_'+comicPath)) || 0;
+        let scale = 1, pointX = 0, pointY = 0, start = { x: 0, y: 0 }, isDragging = false;
+        let lastTap = 0, touchStartX = 0, touchStartY = 0, initialDist = null;
+        let isSeekbarOpen = false;
+
+        const img = document.getElementById('view');
+        const vp = document.getElementById('viewport');
+        const overlay = document.getElementById('seekbar-overlay');
+        const header = document.getElementById('header-overlay');
+        const scrollArea = document.getElementById('seekbar-scroll');
+
+        async function init() {
+            const fileName = decodeURIComponent(cleanPath.split('/').pop()).replace('.cbz', '').replace('.cbr', '');
+            document.getElementById('display-title').innerText = fileName;
+            const res = await fetch('/api/view-pages?path=' + encodeURIComponent(comicPath));
+            pages = await res.json();
+            document.getElementById('display-pages').innerText = `📄 ${pages.length} Pages`;
+            buildSeekbar();
+            show();
+        }
+
+        function buildSeekbar() {
+            scrollArea.innerHTML = pages.map((p, i) => `
+                <div class="thumb" id="t-${i}" onclick="jumpTo(${i})">
+                    <img src="/api/view-image-full?path=${encodeURIComponent(cleanPath)}&page=${encodeURIComponent(p)}" loading="lazy">
+                </div>
+            `).join('');
+        }
+
+        function show() {
+            if (idx < 0) idx = 0;
+            if (idx >= pages.length) return window.close();
+            document.getElementById('loader').style.display = 'block';
+            img.src = `/api/view-image-full?path=${encodeURIComponent(cleanPath)}&page=${encodeURIComponent(pages[idx])}`;
+            img.onload = () => { 
+                document.getElementById('loader').style.display = 'none'; 
+                document.getElementById('display-res').innerText = `📺 ${img.naturalWidth}x${img.naturalHeight}`;
+                if(!isSeekbarOpen) resetZoom(); 
+                updateUI(); 
+                preloadNext();
+            };
+        }
+
+        function updateUI() {
+            document.getElementById('prog').style.width = ((idx+1)/pages.length*100) + '%';
+            document.getElementById('info').innerText = `${idx + 1} / ${pages.length}`;
+            document.getElementById('sb-info').innerText = `Page ${idx + 1} of ${pages.length}`;
+            localStorage.setItem('prog_'+comicPath, idx);
+
+            document.querySelectorAll('.thumb').forEach(t => t.classList.remove('current'));
+            const cur = document.getElementById(`t-${idx}`);
+            if(cur) {
+                cur.classList.add('current');
+                if(isSeekbarOpen) cur.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+            }
+        }
+
+        function checkBoundaries() {
+            if (scale <= 1) { pointX = 0; pointY = 0; return; }
+            const vpw = vp.offsetWidth, vph = vp.offsetHeight;
+            const iw = img.offsetWidth * scale, ih = img.offsetHeight * scale;
+            const limitX = iw > vpw ? (iw - vpw) / 2 : 0;
+            if (pointX > limitX) pointX = limitX;
+            if (pointX < -limitX) pointX = -limitX;
+            const limitY = ih > vph ? (ih - vph) / 2 : 0;
+            if (pointY > limitY) pointY = limitY;
+            if (pointY < -limitY) pointY = -limitY;
+        }
+
+        function applyTransform() { 
+            checkBoundaries();
+            img.style.transform = `translate(${pointX}px, ${pointY}px) scale(${scale})`;
+            if (scale > 1) header.classList.add('hidden');
+            else if (!isSeekbarOpen) header.classList.remove('hidden');
+        }
+
+        function resetZoom() { 
+            scale = 1; pointX = 0; pointY = 0; 
+            img.style.transition = "transform 0.2s ease-out"; 
+            applyTransform(); 
+        }
+
+        function jumpTo(i) { idx = i; show(); }
+
+        function toggleSeekbar() {
+            if (scale > 1) return;
+            isSeekbarOpen = !isSeekbarOpen;
+            overlay.classList.toggle('active', isSeekbarOpen);
+            header.classList.toggle('hidden', isSeekbarOpen);
+            if(isSeekbarOpen) {
+                setTimeout(() => {
+                    const el = document.getElementById(`t-${idx}`);
+                    if(el) el.scrollIntoView({ behavior: 'auto', inline: 'center' });
+                }, 50);
+            }
+        }
+
+        // --- DESKTOP CONTROLS (SCROLL TO PAN) ---
+        vp.onwheel = (e) => {
+            if (scale > 1) {
+                e.preventDefault();
+                img.style.transition = "transform 0.1s ease-out";
+                pointX -= e.deltaX;
+                pointY -= e.deltaY;
+                applyTransform();
+            }
+        };
+
+        function startDrag(x, y) {
+            isDragging = true;
+            start = { x: x - pointX, y: y - pointY };
+            img.style.transition = "none";
+        }
+        function moveDrag(x, y) {
+            if (isDragging && scale > 1) {
+                pointX = x - start.x; pointY = y - start.y;
+                applyTransform();
+            }
+        }
+        vp.onmousedown = (e) => { if(scale > 1) startDrag(e.clientX, e.clientY); };
+        window.onmousemove = (e) => moveDrag(e.clientX, e.clientY);
+        window.onmouseup = () => isDragging = false;
+
+        vp.ondblclick = (e) => {
+            if (scale > 1) resetZoom();
+            else {
+                scale = 2.5;
+                pointX = (vp.offsetWidth/2 - e.clientX) * (scale - 1);
+                pointY = (vp.offsetHeight/2 - e.clientY) * (scale - 1);
+                img.style.transition = "transform 0.3s ease-out";
+                applyTransform();
+            }
+        };
+
+        window.onkeydown = (e) => {
+            if (e.key === "Escape") { if(scale > 1) resetZoom(); else window.close(); }
+            if (scale === 1) {
+                if (["ArrowRight", "PageDown", " "].includes(e.key)) next();
+                if (["ArrowLeft", "PageUp"].includes(e.key)) prev();
+            } else {
+                const step = 80;
+                img.style.transition = "transform 0.1s ease-out";
+                if (e.key === "ArrowUp") pointY += step;
+                if (e.key === "ArrowDown") pointY -= step;
+                if (e.key === "ArrowLeft") pointX += step;
+                if (e.key === "ArrowRight") pointX -= step;
+                applyTransform();
+            }
+            if (e.key === "Home") { idx = 0; show(); }
+            if (e.key === "End") { idx = pages.length - 1; show(); }
+        };
+
+        // --- TOUCH CONTROLS ---
+        vp.addEventListener('touchstart', (e) => {
+            const now = Date.now();
+            const t1 = e.touches[0];
+            touchStartX = t1.clientX;
+            touchStartY = t1.clientY;
+
+            if (now - lastTap < 300) {
+                e.preventDefault();
+                if (scale > 1) resetZoom();
+                else {
+                    scale = 2.5;
+                    pointX = (vp.offsetWidth/2 - t1.clientX) * (scale - 1);
+                    pointY = (vp.offsetHeight/2 - t1.clientY) * (scale - 1);
+                    img.style.transition = "transform 0.3s ease-out";
+                    applyTransform();
+                }
+                lastTap = 0;
+            } else {
+                lastTap = now;
+            }
+
+            if (scale > 1) startDrag(t1.clientX, t1.clientY);
+            else if (e.touches.length === 2) {
+                initialDist = Math.hypot(e.touches[0].pageX - e.touches[1].pageX, e.touches[0].pageY - e.touches[1].pageY);
+            }
+        }, {passive: false});
+
+        vp.addEventListener('touchmove', (e) => {
+            if (e.touches.length === 1) moveDrag(e.touches[0].clientX, e.touches[0].clientY);
+            else if (e.touches.length === 2 && initialDist) {
+                const dist = Math.hypot(e.touches[0].pageX - e.touches[1].pageX, e.touches[0].pageY - e.touches[1].pageY);
+                scale = Math.min(Math.max(1, scale * (dist/initialDist)), 5);
+                initialDist = dist;
+                applyTransform();
+            }
+        }, {passive: false});
+
+        vp.addEventListener('touchend', (e) => {
+            const t = e.changedTouches[0];
+            const distX = Math.abs(t.clientX - touchStartX);
+            const distY = Math.abs(t.clientY - touchStartY);
+            isDragging = false; 
+            initialDist = null;
+
+            if (distX < 8 && distY < 8 && scale === 1) {
+                const w = window.innerWidth;
+                if (t.clientX > w * 0.3 && t.clientX < w * 0.7) toggleSeekbar();
+            }
+
+            if (scale === 1 && !isSeekbarOpen) {
+                const diff = touchStartX - t.clientX;
+                if (Math.abs(diff) > 60) diff > 0 ? next() : prev();
+            }
+        });
+
+        function next() { if(scale === 1) { idx++; show(); } }
+        function prev() { if(scale === 1) { idx = Math.max(0, idx - 1); show(); } }
+        function preloadNext() { if (idx + 1 < pages.length) { new Image().src = `/api/view-image-full?path=${encodeURIComponent(cleanPath)}&page=${encodeURIComponent(pages[idx+1])}`; } }
+
+        init();
+    </script>
+</body>
+</html>

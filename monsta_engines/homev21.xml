@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultmessages='false' b:layoutsVersion='3' b:responsive='true' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/namespaces/blogger/v1' xmlns:data='http://www.google.com/namespaces/atom/data' xmlns:expr='http://www.google.com/namespaces/expr/v1'>
+<head>
+    <title>MonstaComics V4.1</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'/>
+    <link href='https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Oswald:wght@700&amp;family=Inter:wght@400;700&amp;display=swap' rel='stylesheet'/>
+    
+    <b:skin><![CDATA[
+        :root {
+            --bg: #0b0b0b; --card: #121212;
+            --m-green: #00ff88; --m-purple: #a349f5;
+            --text: #ffffff; --text-dim: #999;
+        }
+
+        body { background-color: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; padding: 0; overflow-x: hidden; }
+        
+        /* HEADER */
+        header { 
+            background: #111; padding: 10px 5%; display: flex; align-items: center; justify-content: space-between;
+            border-bottom: 1px solid #222; position: sticky; top: 0; z-index: 1000;
+        }
+        .logo { font-family: 'Bebas Neue', cursive; letter-spacing: 2px; font-size: 32px; cursor: pointer; color: #fff; }
+        .logo span { color: var(--m-purple); }
+        
+        .search-box { background: #1a1a1a; border: 1px solid #333; padding: 5px 15px; border-radius: 20px; display: flex; align-items: center; width: 30%; }
+        .search-box input { background: transparent; border: none; color: #fff; width: 100%; outline: none; font-size: 13px; }
+
+        /* HOME GRID */
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .manga-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px; }
+        
+        .manga-card { 
+            background: var(--card); border: 1.5px solid var(--m-green); 
+            box-shadow: 0 4px 10px rgba(163, 73, 245, 0.2); transition: 0.3s; cursor: pointer; position: relative;
+        }
+        .manga-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(163, 73, 245, 0.5); }
+        .manga-card img { width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block; }
+        
+        .type-tag { position: absolute; top: 5px; right: 5px; background: var(--m-purple); color: #fff; font-size: 9px; padding: 2px 6px; font-weight: bold; }
+        .card-info { padding: 10px; font-size: 12px; background: #111; }
+        .card-title { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px; }
+        .card-meta { display: flex; justify-content: space-between; align-items: center; }
+
+        /* DETAIL MODE */
+        #detail-view { display: none; padding-top: 20px; animation: fadeIn 0.3s; }
+        .detail-header { display: flex; gap: 30px; margin-bottom: 30px; flex-wrap: wrap; }
+        .detail-cover { width: 250px; border: 2px solid var(--m-green); box-shadow: 0 0 20px rgba(163, 73, 245, 0.3); object-fit: cover; }
+        .detail-info { flex: 1; min-width: 300px; }
+        .detail-title { font-family: 'Oswald', sans-serif; font-size: 38px; color: var(--text); text-transform: uppercase; margin: 0 0 10px 0; }
+        .genre-tag { display: inline-block; padding: 4px 10px; background: #222; border: 1px solid var(--m-purple); font-size: 11px; margin: 5px 5px 0 0; }
+        
+        .chapter-list { margin-top: 30px; max-height: 400px; overflow-y: auto; background: #111; border: 1px solid #222; }
+        .chap-item { padding: 15px; border-bottom: 1px solid #222; display: flex; justify-content: space-between; cursor: pointer; transition: 0.2s; }
+        .chap-item:hover { background: #1a1a1a; color: var(--m-green); }
+
+        /* READER VIEW */
+        #reader-view { display: none; background: #000; }
+        .reader-nav { position: sticky; top: 0; background: rgba(10,10,10,0.95); padding: 10px 5%; border-bottom: 1px solid var(--m-green); z-index: 1100; display: flex; justify-content: space-between; align-items: center; }
+        .reader-imgs img { width: 100%; max-width: 800px; display: block; margin: 0 auto; min-height: 300px; background: #000; }
+        
+        .nav-btn { background: #1a1a1a; border: 1px solid var(--m-green); color: #fff; padding: 8px 15px; font-weight: bold; cursor: pointer; font-size: 11px; }
+        .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+        .nav-center { display: flex; align-items: center; gap: 10px; }
+        select { background: #111; color: var(--m-green); border: 1px solid #333; padding: 5px 10px; font-weight: bold; outline: none; }
+
+        /* RECOMMENDATION SLIDER */
+        .recom-container { margin-top: 50px; border-top: 1px solid #222; padding-top: 20px; }
+        .recom-title { font-family: 'Bebas Neue'; font-size: 24px; color: var(--m-purple); margin-bottom: 15px; }
+        .recom-scroll { display: flex; overflow-x: auto; gap: 15px; padding-bottom: 15px; scrollbar-width: none; -ms-overflow-style: none; }
+        .recom-scroll::-webkit-scrollbar { display: none; }
+        .recom-item { min-width: 120px; width: 120px; cursor: pointer; }
+        .recom-item img { width: 100%; aspect-ratio: 3/4; object-fit: cover; border: 1px solid #333; }
+        .recom-item div { font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 5px; }
+
+        @keyframes fadeIn { from {opacity:0} to {opacity:1} }
+    ]]></b:skin>
+</head>
+<body>
+
+    <header>
+        <div class='logo' onclick='location.reload()'>MONSTA<span>COMICS</span></div>
+        <div class='search-box'>
+            <input id='searchInput' onkeyup='searchManga()' placeholder='Cari komik...' type='text'/>
+        </div>
+    </header>
+
+    <div class='container'>
+        <div id='home-view'>
+            <div class='manga-grid' id='main-grid'></div>
+        </div>
+
+        <div id='detail-view'>
+            <div id='detail-content'></div>
+            <div class='chapter-list' id='chapter-list'></div>
+            
+            <div class='recom-container'>
+                <div class='recom-title'>Saran Monster Lainnya</div>
+                <div class='recom-scroll' id='recom-list'></div>
+            </div>
+        </div>
+    </div>
+
+    <div id='reader-view'>
+        <div class='reader-nav'>
+            <button class='nav-btn' onclick='backToDetail()'>CHAPTER LIST</button>
+            <div class='nav-center'>
+                <button class='nav-btn' id='prevBtn' onclick='changeChap(1)'>PREV</button>
+                <select id='chapSelect' onchange='jumpChap(this.value)'></select>
+                <button class='nav-btn' id='nextBtn' onclick='changeChap(-1)'>NEXT</button>
+            </div>
+        </div>
+        <div class='reader-imgs' id='reader-imgs'></div>
+    </div>
+
+    <div class='hidden'><b:section id='main' showaddelement='yes'/></div>
+
+    <script type='text/javascript'>
+    // <![CDATA[
+        const INDEX_URL = "https://cdn.discordapp.com/attachments/1468625981584703673/1468929555380043830/monsta_index.json?ex=6985cec1&is=69847d41&hm=dab16bd3285627383c932252854554714c3eeb53acbb89a3ba3a2ab247085464&";
+        let allData = [];
+        let currentManga = null;
+        let currentChapIdx = 0;
+
+        const proxy = (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+
+        async function init() {
+            try {
+                const res = await fetch(proxy(INDEX_URL));
+                allData = await res.json();
+                renderHome(allData);
+            } catch (e) { document.getElementById('main-grid').innerHTML = "Connection Error."; }
+        }
+
+        function renderHome(data) {
+            const grid = document.getElementById('main-grid');
+            grid.innerHTML = data.map(m => `
+                <div class="manga-card" onclick="openDetail('${m.cdn}')">
+                    <div class="type-tag">${m.type || 'Manga'}</div>
+                    <img src="${m.cover}" loading="lazy"/>
+                    <div class="card-info">
+                        <div class="card-title">${m.title}</div>
+                        <div class="card-meta">
+                            <span style="color:var(--m-green)">★ ${m.rating || '0'}</span>
+                            <span style="color:var(--m-purple); font-weight:bold; font-size:10px;">CH. ${m.last_chapter || '??'}</span>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        async function openDetail(cdn) {
+            document.getElementById('home-view').style.display = 'none';
+            document.getElementById('reader-view').style.display = 'none';
+            document.getElementById('detail-view').style.display = 'block';
+            window.scrollTo(0,0);
+            
+            try {
+                const res = await fetch(proxy(cdn));
+                currentManga = await res.json();
+                
+                // Render Detail Content
+                document.getElementById('detail-content').innerHTML = `
+                    <div class="detail-header">
+                        <img class="detail-cover" src="${currentManga.cover}"/>
+                        <div class="detail-info">
+                            <h1 class="detail-title">${currentManga.title}</h1>
+                            <p style="color:var(--text-dim); font-size:14px; line-height:1.6;">${currentManga.metadata.synopsis || 'Monster ini belum memiliki deskripsi.'}</p>
+                            <div>${currentManga.metadata.genres.map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>
+                            <div style="margin-top:20px; font-weight:bold;">Status: <span style="color:var(--m-green)">${currentManga.metadata.status}</span></div>
+                        </div>
+                    </div>
+                `;
+
+                // Render Chapter List (Reverse agar yang terbaru di atas jika perlu, tapi kita ikuti urutan json)
+                const list = document.getElementById('chapter-list');
+                list.innerHTML = currentManga.chapters.map((c, i) => `
+                    <div class="chap-item" onclick="openReader(${i})">
+                        <span>Chapter ${c.chapter_num || (currentManga.chapters.length - i)}</span>
+                        <span style="color:var(--text-dim); font-size:11px;">READ</span>
+                    </div>
+                `).join('');
+
+                renderRecommendation();
+            } catch (e) { alert("Detail error"); }
+        }
+
+        function renderRecommendation() {
+            const recomList = document.getElementById('recom-list');
+            const randoms = [...allData].sort(() => 0.5 - Math.random()).slice(0, 10);
+            recomList.innerHTML = randoms.map(r => `
+                <div class="recom-item" onclick="openDetail('${r.cdn}')">
+                    <img src="${r.cover}"/>
+                    <div>${r.title}</div>
+                </div>
+            `).join('');
+        }
+
+        async function openReader(idx) {
+            currentChapIdx = idx;
+            document.getElementById('detail-view').style.display = 'none';
+            document.getElementById('reader-view').style.display = 'block';
+            window.scrollTo(0,0);
+            
+            const chap = currentManga.chapters[currentChapIdx];
+            
+            // Render Nav
+            const select = document.getElementById('chapSelect');
+            select.innerHTML = currentManga.chapters.map((c, i) => `
+                <option value="${i}" ${i === currentChapIdx ? 'selected' : ''}>Ch. ${c.chapter_num}</option>
+            `).join('');
+
+            // Handle Buttons
+            document.getElementById('prevBtn').disabled = (currentChapIdx >= currentManga.chapters.length - 1);
+            document.getElementById('nextBtn').disabled = (currentChapIdx <= 0);
+
+            // Render Images - FORCE RELOAD TO PREVENT MISSING IMAGES
+            const imgContainer = document.getElementById('reader-imgs');
+            imgContainer.innerHTML = "<div style='padding:50px; text-align:center;'>Loading Images...</div>";
+            
+            // Build all images HTML at once
+            const imagesHtml = chap.images.map(img => `<img src="${img}" loading="lazy" onerror="this.style.display='none'"/>`).join('');
+            imgContainer.innerHTML = imagesHtml;
+        }
+
+        function changeChap(dir) {
+            let newIdx = currentChapIdx + dir;
+            if (newIdx >= 0 && newIdx < currentManga.chapters.length) {
+                openReader(newIdx);
+            }
+        }
+
+        function jumpChap(val) { openReader(parseInt(val)); }
+        function backToDetail() {
+            document.getElementById('reader-view').style.display = 'none';
+            document.getElementById('detail-view').style.display = 'block';
+        }
+        function searchManga() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const filtered = allData.filter(m => m.title.toLowerCase().includes(query));
+            renderHome(filtered);
+        }
+
+        window.onload = init;
+    // ]]>
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "project": "MonstaComics",
+  "version": "3.9 (Prototype)",
+  "standard_date": "2026-02-03",
+  "mapping_structure": {
+    "identity": {
+      "slug": "String (URL-friendly ID)",
+      "title": "String (Main Display Name)",
+      "alt_title": "String (Alternative/Native Name)",
+      "lang": "String (id/en)",
+      "source": "String (Domain Name)"
+    },
+    "metadata": {
+      "synopsis": "Text (Story Description)",
+      "author": "String",
+      "artist": "String",
+      "genres": ["String"],
+      "type": "String (Manhwa/Manga/Manhua)",
+      "status": "String (Ongoing/Completed/Hiatus)",
+      "content_rating": "String (Safe/Adult)"
+    },
+    "visual": {
+      "cover": "String (External Image URL)",
+      "local_cover": "String (Internal Storage Path)"
+    },
+    "stats": {
+      "total_chapters": "Integer",
+      "latest_ch": "String",
+      "rating": "String",
+      "view_count_source": "String (e.g., '1.2M')", 
+      "view_count_internal": "Integer (Default: 0)",
+      "updated_at": "ISO-8601 Timestamp"
+    },
+    "content": {
+      "chapters": [
+        {
+          "chapter_num": "String",
+          "chapter_name": "String",
+          "chapter_url": "String",
+          "images": ["String (Direct Image URLs)"]
+        }
+      ]
+    }
+  }
+}
