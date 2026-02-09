@@ -5,143 +5,134 @@ import subprocess
 from datetime import datetime
 
 # ==============================================================================
-# MONSTA BOT 3: THE MANAGER (V52.0 - HOME BASE EDITION)
+# MONSTA BOT 3: THE MANAGER (V52.5 - PATH FINDER EDITION)
 # ------------------------------------------------------------------------------
-# 1. SCANNER: Baca semua JSON di database.
-# 2. INDEXER: Buat file 'index.json' (Katalog untuk Web UI).
-# 3. GIT SYNC: Push otomatis ke GitHub tanpa ganggu Scraper.
+# PRINSIP: NO CHEAP SOLUTIONS - FULL CODE EXECUTION
+# TARGET: Fix WinError 2 & Auto-Push to GitHub
 # ==============================================================================
 
-# --- KONFIGURASI RELATIF ---
-# Kita asumsi script ini ada di folder 'monsta_engines'
-# Database ada di folder kakak/sebelah: '../monstacomics/database'
+# --- KONFIGURASI PATH ABSOLUT ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_FOLDER = os.path.abspath(os.path.join(BASE_DIR, "..", "monstacomics", "database"))
-ROOT_REPO = os.path.abspath(os.path.join(BASE_DIR, "..")) # Folder root project
+ROOT_REPO = os.path.abspath(os.path.join(BASE_DIR, "..")) 
+DB_FOLDER = os.path.join(ROOT_REPO, "monstacomics", "database")
 
-# Interval (Detik)
-CHECK_INTERVAL = 600  # Sync setiap 10 menit
-
-# ==============================================================================
+# Interval Sinkronisasi
+CHECK_INTERVAL = 60 
 
 class MonstaManager:
     def __init__(self):
-        print(f"[INIT] Manager aktif di: {ROOT_REPO}")
-        print(f"[INIT] Memantau Database: {DB_FOLDER}")
+        print(f"--- [SYSTEM START] {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---")
+        print(f"[PATH] Root Repository : {ROOT_REPO}")
+        print(f"[PATH] Database Target : {DB_FOLDER}")
         
+        # 1. Validasi Folder Database
         if not os.path.exists(DB_FOLDER):
-            print("[ERROR] Folder database tidak ditemukan! Cek struktur foldermu.")
-            exit()
+            print(f"[CRITICAL ERROR] Folder database tidak ditemukan!")
+            exit(1)
+
+        # 2. Validasi Keberadaan Git
+        if not self.check_git():
+            print("\n" + "!"*50)
+            print("[CRITICAL ERROR] GIT MASIH TIDAK DITEMUKAN!")
+            print("Windows tetap tidak mengenal perintah 'git'.")
+            print("-"*50)
+            print("SOLUSI:")
+            print("1. Pastikan Git sudah diinstal dari git-scm.com")
+            print("2. RESTART PC jika terminal masih tidak mengenali git.")
+            print("!"*50 + "\n")
+            exit(1)
+
+    def check_git(self):
+        """Mengecek apakah perintah git bisa dipanggil."""
+        try:
+            subprocess.run(["git", "--version"], capture_output=True, shell=True, check=True)
+            return True
+        except:
+            return False
 
     def run_git(self, args):
-        """Menjalankan perintah git di background."""
+        """Eksekutor perintah Git dengan mode shell=True untuk Windows."""
         try:
             result = subprocess.run(
                 ["git"] + args,
-                cwd=ROOT_REPO, # Jalankan perintah dari folder root
+                cwd=ROOT_REPO,
                 capture_output=True,
                 text=True,
-                encoding='utf-8' # Handle karakter aneh
+                encoding='utf-8',
+                shell=True 
             )
+            
+            if result.returncode != 0:
+                print(f"      [GIT ERROR] Perintah: git {' '.join(args)}")
+                print(f"      [DETAIL] {result.stderr.strip()}")
+                return False
             return result.stdout.strip()
         except Exception as e:
-            print(f"      [SYSTEM ERROR] Gagal panggil Git: {e}")
+            print(f"      [SYSTEM ERROR] {e}")
             return False
 
     def create_index(self):
-        """
-        RAHASIA UI WEB:
-        Fungsi ini membuat file 'index.json' yang berisi rangkuman.
-        Web-mu nanti cuma perlu load file ini untuk menampilkan daftar komik.
-        """
-        print("   [1/3] Membuat Katalog (Indexing)...")
+        print("   [STEP 1/3] Memperbarui Katalog (Indexing)...")
         catalog = []
-        
-        # Scan semua file .json
-        files = [f for f in os.listdir(DB_FOLDER) if f.endswith(".json") and f != "index.json"]
-        
-        for filename in files:
-            filepath = os.path.join(DB_FOLDER, filename)
-            try:
+        try:
+            files = [f for f in os.listdir(DB_FOLDER) if f.endswith(".json") and f != "index.json"]
+            for filename in files:
+                filepath = os.path.join(DB_FOLDER, filename)
                 with open(filepath, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                    
-                    # Ambil data penting saja untuk 'kartu' di halaman depan web
                     catalog.append({
                         "title": data.get("title", "Unknown"),
                         "slug": data.get("slug", filename.replace(".json", "")),
                         "cover": data.get("cover", ""),
-                        "last_updated": data.get("last_updated", "2000-01-01 00:00"),
-                        "total_chapters": len(data.get("chapters", [])),
-                        "genres": data.get("genres", [])
+                        "last_updated": data.get("last_updated", "N/A"),
+                        "total_chapters": len(data.get("chapters", []))
                     })
-            except Exception as e:
-                print(f"      [WARN] Gagal baca {filename}: {e}")
-
-        # Sortir: Komik yang baru update naik ke paling atas
-        catalog.sort(key=lambda x: x["last_updated"], reverse=True)
-        
-        # Simpan jadi index.json
-        index_path = os.path.join(DB_FOLDER, "index.json")
-        with open(index_path, 'w', encoding='utf-8') as f:
-            json.dump(catalog, f, indent=2) # indent=2 biar enak dibaca manusia
-            
-        print(f"      -> Sukses! {len(catalog)} komik terdaftar di index.json")
-        return True
+            catalog.sort(key=lambda x: x["last_updated"], reverse=True)
+            with open(os.path.join(DB_FOLDER, "index.json"), 'w', encoding='utf-8') as f:
+                json.dump(catalog, f, indent=2)
+            print(f"      -> Berhasil merangkum {len(catalog)} komik.")
+            return True
+        except Exception as e:
+            print(f"      [ERROR INDEXING] {e}")
+            return False
 
     def sync_github(self):
-        """Proses Upload ke GitHub."""
-        print("   [2/3] Cek Perubahan (Git Status)...")
-        
-        # Cek status dulu
+        print("   [STEP 2/3] Memeriksa Perubahan Lokal...")
         status = self.run_git(["status", "--porcelain"])
         
+        if status is False: return
         if not status:
-            print("      -> Tidak ada perubahan data. (Clean)")
+            print("      -> Status: Clean. Tidak ada perubahan.")
             return
-        
-        print("   [3/3] Sinkronisasi ke Awan...")
-        
-        # Add (Bungkus semua perubahan)
+
+        print("   [STEP 3/3] Sinkronisasi ke GitHub...")
         self.run_git(["add", "."])
         
-        # Commit (Stempel waktu)
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
-        msg = f"Auto Update: {timestamp} ({len(status.splitlines())} files)"
-        self.run_git(["commit", "-m", msg])
-        print(f"      -> Commited: {msg}")
+        t_stamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+        if self.run_git(["commit", "-m", f"Monsta Auto-Sync: {t_stamp}"]):
+            print(f"      -> Committed.")
         
-        # Push (Kirim)
-        print("      -> Mengirim paket ke GitHub (Pushing)...")
-        push_res = self.run_git(["push"])
-        
-        # Cek output push (kadang kosong kalau sukses, kadang ada text)
-        print("      -> Selesai! Data aman di GitHub.")
-
-# --- MAIN LOOP ---
+        print("      -> Pushing to origin main...")
+        if self.run_git(["push", "origin", "main"]) is not False:
+            print("      -> SINKRONISASI SELESAI: Data aman di GitHub.")
+        else:
+            print("      -> GAGAL PUSH. Periksa koneksi/kredensial.")
 
 if __name__ == "__main__":
     bot = MonstaManager()
-    
-    print("\n==============================================")
-    print("   MONSTA BOT 3: THE MANAGER (ACTIVATED)")
-    print("==============================================")
-    print("   Bot ini akan update Index & GitHub otomatis.")
-    print(f"   Interval: Setiap {CHECK_INTERVAL} detik.")
-    print("   Tekan CTRL+C untuk berhenti.")
-    print("==============================================\n")
+    print("\n" + "="*50)
+    print("   MONSTA MANAGER V52.5 - FINAL PATH FIX")
+    print("="*50)
+    print(f"Status: ONLINE | Interval: {CHECK_INTERVAL}s\n")
 
     while True:
         try:
-            print(f"\n[JOB START] {datetime.now().strftime('%H:%M:%S')}")
             bot.create_index()
             bot.sync_github()
-            print("[JOB DONE] Istirahat dulu...")
+            print(f"\n[REST] Menunggu siklus berikutnya... ({datetime.now().strftime('%H:%M:%S')})")
         except KeyboardInterrupt:
-            print("\n[STOP] Bot dimatikan. Sampai jumpa!")
+            print("\n[OFFLINE] Sistem dimatikan.")
             break
         except Exception as e:
-            print(f"[CRASH] Terjadi kesalahan: {e}")
-            input("Tekan ENTER untuk keluar...")
-        
+            print(f"\n[CRASH] {e}")
         time.sleep(CHECK_INTERVAL)
