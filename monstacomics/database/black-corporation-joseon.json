@@ -2,7 +2,39 @@
     "slug": "black-corporation-joseon",
     "title": "Black Corporation: Joseon",
     "cover": "https://files.catbox.moe/ilqstg.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Maniak yang gila di semua bidang seperti militer dan steampunk telah bereinkarnasi. Namun, ayahnya adalah Sejong yang Agung? Raja yang sangat bijak dan anaknya yang gila. Bersama dengan para menterinya, beserta manusia tak terhitung yang dimanfaatkan. Bahkan hari ini, malam di Joseon dipenuhi dengan lampu pekerja lembur."
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-10",
+            "images": [
+                "https://files.catbox.moe/i5fc9f.jpg",
+                "https://files.catbox.moe/ay05hu.jpg",
+                "https://files.catbox.moe/elj5lj.jpg",
+                "https://files.catbox.moe/4afj92.jpg",
+                "https://files.catbox.moe/0q1fun.jpg",
+                "https://files.catbox.moe/ksmjjp.jpg",
+                "https://files.catbox.moe/8mx3nt.jpg",
+                "https://files.catbox.moe/0g8ftk.jpg",
+                "https://files.catbox.moe/t1hywy.jpg",
+                "https://files.catbox.moe/a7ra7h.jpg",
+                "https://files.catbox.moe/39us2u.jpg",
+                "https://files.catbox.moe/my9ab1.jpg",
+                "https://files.catbox.moe/q54hly.jpg",
+                "https://files.catbox.moe/839c6w.jpg",
+                "https://files.catbox.moe/6wcxtz.jpg",
+                "https://files.catbox.moe/3r8fhz.jpg",
+                "https://files.catbox.moe/3t6kzl.jpg",
+                "https://files.catbox.moe/dj767t.jpg",
+                "https://files.catbox.moe/x22zan.jpg",
+                "https://files.catbox.moe/svwzt2.jpg",
+                "https://files.catbox.moe/cwl34a.jpg",
+                "https://files.catbox.moe/gxocsq.jpg",
+                "https://files.catbox.moe/jmquoh.jpg"
+            ]
+        }
+    ],
     "last_updated": ""
 }
