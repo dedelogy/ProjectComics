@@ -2,7 +2,47 @@
     "slug": "komisi-pengawas-persaingan-usaha",
     "title": "Komisi Pengawas Persaingan Usaha",
     "cover": "https://files.catbox.moe/ifeg1e.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Para Subkontraktor itu tidak lebih dari sekedar Robot yang aku berikan akses kehidupan.Jadi Wajar saja jika aku memeras segalanya dari mereka.Namun setelah dikhianati oleh Grup tempatku bekerja, aku membuka mataku dalam tubuh yang baru dan akhirnya melihat dari sudut pandang air mata para \"Robot\" itu.Setelah memperoleh kehidupan kedua di ambang kematian, dapatkah jiwaku kali ini terselamatkan?"
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-10",
+            "images": [
+                "https://files.catbox.moe/uhl3pa.webp",
+                "https://files.catbox.moe/2hxhco.webp",
+                "https://files.catbox.moe/9yfsff.webp",
+                "https://files.catbox.moe/ifedff.webp",
+                "https://files.catbox.moe/wawurs.webp",
+                "https://files.catbox.moe/44u6r4.webp",
+                "https://files.catbox.moe/iwaoqp.webp",
+                "https://files.catbox.moe/mq3wg8.webp",
+                "https://files.catbox.moe/roa09t.webp",
+                "https://files.catbox.moe/7wvtgs.webp",
+                "https://files.catbox.moe/tjew9i.webp",
+                "https://files.catbox.moe/on5sed.webp",
+                "https://files.catbox.moe/k0bbhf.webp",
+                "https://files.catbox.moe/9tgaz8.webp",
+                "https://files.catbox.moe/a935vp.webp",
+                "https://files.catbox.moe/y4q194.webp",
+                "https://files.catbox.moe/gzo9na.webp",
+                "https://files.catbox.moe/9ynyis.webp",
+                "https://files.catbox.moe/ou6c5f.webp",
+                "https://files.catbox.moe/3m1jcr.webp",
+                "https://files.catbox.moe/25k5ft.webp",
+                "https://files.catbox.moe/3ue2rn.webp",
+                "https://files.catbox.moe/p0pddf.webp",
+                "https://files.catbox.moe/kd3eyd.webp",
+                "https://files.catbox.moe/ek1ftt.webp",
+                "https://files.catbox.moe/o2ft7u.webp",
+                "https://files.catbox.moe/txbruw.webp",
+                "https://files.catbox.moe/2h0oea.webp",
+                "https://files.catbox.moe/dcnps7.webp",
+                "https://files.catbox.moe/8nxnqh.webp",
+                "https://files.catbox.moe/zblt1q.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
