@@ -1,5 +1,12 @@
 [
   {
+    "title": "Jaksa Kim Seojin",
+    "slug": "jaksa-kim-seojin",
+    "cover": "https://files.catbox.moe/hz7pxh.jpg",
+    "last_updated": "2026-02-10T01:14:33.409775",
+    "total_chapters": 23
+  },
+  {
     "title": "Bocil Hunter",
     "slug": "bocil-hunter",
     "cover": "https://files.catbox.moe/ell42q.png",
@@ -14,10 +21,10 @@
     "total_chapters": 153
   },
   {
-    "title": "Jaksa Kim Seojin",
-    "slug": "jaksa-kim-seojin",
-    "cover": "https://files.catbox.moe/hz7pxh.jpg",
+    "title": "Komisi Pengawas Persaingan Usaha",
+    "slug": "komisi-pengawas-persaingan-usaha",
+    "cover": "https://files.catbox.moe/ifeg1e.png",
     "last_updated": "",
-    "total_chapters": 22
+    "total_chapters": 0
   }
 ]
