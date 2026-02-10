@@ -2,7 +2,50 @@
     "slug": "petualangan-kim-ohjin-bersama-hewan-hewan-aneh",
     "title": "Petualangan Kim Ohjin Bersama Hewan-Hewan Aneh",
     "cover": "https://files.catbox.moe/tcxxwq.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Dokter hewan Kim Ohjin tiba-tiba dipanggil oleh seekor naga. Setelah berhasil merawat hewan peliharaan naga itu, ia kembali ke rumah... tetapi mendapati dirinya berada di dunia lain."
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-11",
+            "images": [
+                "https://files.catbox.moe/y6zd5v.webp",
+                "https://files.catbox.moe/anm34k.webp",
+                "https://files.catbox.moe/ehe3h4.webp",
+                "https://files.catbox.moe/uhc6li.webp",
+                "https://files.catbox.moe/02ti8n.webp",
+                "https://files.catbox.moe/w4yof6.webp",
+                "https://files.catbox.moe/aca74p.webp",
+                "https://files.catbox.moe/p0edlz.webp",
+                "https://files.catbox.moe/6n1dyl.webp",
+                "https://files.catbox.moe/sw2jq9.webp",
+                "https://files.catbox.moe/xo9v70.webp",
+                "https://files.catbox.moe/asuaje.webp",
+                "https://files.catbox.moe/y0ijje.webp",
+                "https://files.catbox.moe/kdok1t.webp",
+                "https://files.catbox.moe/j4726y.webp",
+                "https://files.catbox.moe/0gyeam.webp",
+                "https://files.catbox.moe/u9rji6.webp",
+                "https://files.catbox.moe/6mpokv.webp",
+                "https://files.catbox.moe/zpgzds.webp",
+                "https://files.catbox.moe/tjk3io.webp",
+                "https://files.catbox.moe/48kx7r.webp",
+                "https://files.catbox.moe/m1gm5k.webp",
+                "https://files.catbox.moe/zxy1wc.webp",
+                "https://files.catbox.moe/tk42s5.webp",
+                "https://files.catbox.moe/oshawb.webp",
+                "https://files.catbox.moe/qogms0.webp",
+                "https://files.catbox.moe/v0y3pi.webp",
+                "https://files.catbox.moe/q4jwmm.webp",
+                "https://files.catbox.moe/giisqn.webp",
+                "https://files.catbox.moe/oac25e.webp",
+                "https://files.catbox.moe/z7vdqs.webp",
+                "https://files.catbox.moe/ucw2vs.webp",
+                "https://files.catbox.moe/f7otda.webp",
+                "https://files.catbox.moe/q90t6q.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
