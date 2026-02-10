@@ -1,8 +1,35 @@
 {
     "slug": "superstar-from-age-0",
     "title": "Superstar From Age 0",
-    "cover": "",
-    "metadata": {},
-    "chapters": [],
+    "cover": "https://files.catbox.moe/cur2ry.png",
+    "metadata": {
+        "synopsis": "Dari peri, peri, slime, benda-benda hadiah, iblis, dan banyak lagi, tak terhitung berapa banyak reinkarnasi yang telah terjadi untuk mendapatkan kehidupan yang baru. Aku, Lee Seo Jun, telah terlahir kembali sebagai anak manusia!Di perpustakaan kehidupanku, di mana kenangan kehidupan sebelumnya tetap seperti dongeng, Aku kebetulan melihat kehidupan masa lalu dengan kehidupan impian yang sangat kuinginkan. Selain itu, aku diberi kemampuan yang menarik perhatian orang!Dengan wajah tampanku yang melakukan semua kerja keras! Kemampuan aktingku yang luar biasa! Kali ini, akhirnya, aku akan meraih mimpiku dan menjadi seorang superstar!Ayow swemangwat! (Aksen bayi)"
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-10",
+            "images": [
+                "https://files.catbox.moe/rle7by.jpg",
+                "https://files.catbox.moe/g44704.jpg",
+                "https://files.catbox.moe/kkuk8y.jpg",
+                "https://files.catbox.moe/mxhnsn.jpg",
+                "https://files.catbox.moe/hgepga.jpg",
+                "https://files.catbox.moe/v5a9z0.jpg",
+                "https://files.catbox.moe/yawzwp.jpg",
+                "https://files.catbox.moe/yfirup.jpg",
+                "https://files.catbox.moe/xaqcbv.jpg",
+                "https://files.catbox.moe/5b7gbo.jpg",
+                "https://files.catbox.moe/zgxezj.jpg",
+                "https://files.catbox.moe/50h8n8.jpg",
+                "https://files.catbox.moe/fzakkr.jpg",
+                "https://files.catbox.moe/ykotih.jpg",
+                "https://files.catbox.moe/m2sof8.jpg",
+                "https://files.catbox.moe/2ka5ag.jpg",
+                "https://files.catbox.moe/6d3igl.jpg",
+                "https://files.catbox.moe/4o13jf.jpg"
+            ]
+        }
+    ],
     "last_updated": ""
 }
