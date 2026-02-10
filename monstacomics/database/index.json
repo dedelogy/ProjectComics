@@ -1,5 +1,12 @@
 [
   {
+    "title": "Battle Through The Heavens",
+    "slug": "battle-through-the-heavens",
+    "cover": "https://files.catbox.moe/j43apq.jpg",
+    "last_updated": "2026-02-11T01:10:23.677075",
+    "total_chapters": 496
+  },
+  {
     "title": "The Vehement Emperor Of Steel",
     "slug": "the-vehement-emperor-of-steel",
     "cover": "https://files.catbox.moe/39cnon.webp",
@@ -84,18 +91,18 @@
     "total_chapters": 153
   },
   {
-    "title": "Battle Through The Heavens",
-    "slug": "battle-through-the-heavens",
-    "cover": "https://files.catbox.moe/j43apq.jpg",
-    "last_updated": "",
-    "total_chapters": 495
-  },
-  {
     "title": "Black Corporation: Joseon",
     "slug": "black-corporation-joseon",
     "cover": "https://files.catbox.moe/ilqstg.png",
     "last_updated": "",
     "total_chapters": 24
+  },
+  {
+    "title": "Jadi Kasir Di Dunia Lain",
+    "slug": "jadi-kasir-di-dunia-lain",
+    "cover": "",
+    "last_updated": "",
+    "total_chapters": 0
   },
   {
     "title": "Woojin Si Detektif Jenius",

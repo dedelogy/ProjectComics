@@ -7,6 +7,19 @@
     },
     "chapters": [
         {
+            "ch_num": 501.0,
+            "release_date": "2026-02-11",
+            "images": [
+                "https://files.catbox.moe/vyau01.webp",
+                "https://files.catbox.moe/amjzhc.webp",
+                "https://files.catbox.moe/f2ijvi.webp",
+                "https://files.catbox.moe/x8cxnk.webp",
+                "https://files.catbox.moe/f6w2eh.webp",
+                "https://files.catbox.moe/zecyoq.webp",
+                "https://files.catbox.moe/zupr38.webp"
+            ]
+        },
+        {
             "ch_num": 500.0,
             "release_date": "2026-02-11",
             "images": [
@@ -15201,5 +15214,5 @@
             ]
         }
     ],
-    "last_updated": ""
+    "last_updated": "2026-02-11T01:10:23.677075"
 }
