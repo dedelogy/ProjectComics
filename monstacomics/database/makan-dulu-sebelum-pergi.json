@@ -2,7 +2,39 @@
     "slug": "makan-dulu-sebelum-pergi",
     "title": "Makan Dulu Sebelum Pergi",
     "cover": "https://files.catbox.moe/vqoo1x.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Kang Cheol-ho dulunya adalah seorang Warrior terkuat yang dipanggil ke dunia lain, di mana dia bertarung dan mengalahkan Raja Iblis setelah puluhan tahun berperang.Sekarang, 30 tahun kemudian, dia akhirnya kembali ke Bumi... hanya untuk masuk di tengah-tengah krisis baru: era serangan monster.Tapi Cheol-ho sudah lelah. Dia sudah muak dengan pertumpahan darah, pertempuran, dan kejayaan.Jadi dia menggantungkan pedangnya dan memilih mimpi yang berbeda: membuka sebuah restoran kecil - tempat yang damai di mana siapa pun bisa mampir, makan, dan beristirahat.Ketika para pemburu yang lelah, orang asing yang patah semangat, dan pengunjung yang penasaran berjalan melewati pintunya, Cheol-ho menawarkan kehangatan kepada mereka bukan dengan kekuatan, tetapi melalui makanan yang enak dan telinga yang mau mendengarkan.Sebuah kisah yang lembut dan mengharukan tentang makanan, healing, dan kesempatan kedua."
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-10",
+            "images": [
+                "https://files.catbox.moe/84tv19.jpg",
+                "https://files.catbox.moe/i13c1y.jpg",
+                "https://files.catbox.moe/5rb14t.jpg",
+                "https://files.catbox.moe/3y1r1l.jpg",
+                "https://files.catbox.moe/vcysq4.jpg",
+                "https://files.catbox.moe/gu9rxx.jpg",
+                "https://files.catbox.moe/i33lt7.jpg",
+                "https://files.catbox.moe/ifs6wk.jpg",
+                "https://files.catbox.moe/lyoati.jpg",
+                "https://files.catbox.moe/pkq8wf.jpg",
+                "https://files.catbox.moe/70bevn.jpg",
+                "https://files.catbox.moe/1pq9xj.jpg",
+                "https://files.catbox.moe/49q7r8.jpg",
+                "https://files.catbox.moe/0asutq.jpg",
+                "https://files.catbox.moe/qievh9.jpg",
+                "https://files.catbox.moe/bc489p.jpg",
+                "https://files.catbox.moe/55iv7g.jpg",
+                "https://files.catbox.moe/i8dccw.jpg",
+                "https://files.catbox.moe/vrwb01.jpg",
+                "https://files.catbox.moe/b7y7nj.jpg",
+                "https://files.catbox.moe/pcmfe9.jpg",
+                "https://files.catbox.moe/nhujte.jpg",
+                "https://files.catbox.moe/xyxir1.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
