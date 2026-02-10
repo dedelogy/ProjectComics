@@ -1,5 +1,12 @@
 [
   {
+    "title": "Superstar From Age 0",
+    "slug": "superstar-from-age-0",
+    "cover": "https://files.catbox.moe/cur2ry.png",
+    "last_updated": "2026-02-10T11:26:07.362534",
+    "total_chapters": 82
+  },
+  {
     "title": "Voice Phishing Turns Your Life Around",
     "slug": "voice-phishing-turns-your-life-around",
     "cover": "https://files.catbox.moe/q55grr.webp",
@@ -56,10 +63,10 @@
     "total_chapters": 24
   },
   {
-    "title": "Superstar From Age 0",
-    "slug": "superstar-from-age-0",
-    "cover": "https://files.catbox.moe/cur2ry.png",
+    "title": "Woojin Si Detektif Jenius",
+    "slug": "woojin-si-detektif-jenius",
+    "cover": "",
     "last_updated": "",
-    "total_chapters": 81
+    "total_chapters": 0
   }
 ]
