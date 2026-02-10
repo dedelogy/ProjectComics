@@ -2,7 +2,55 @@
     "slug": "battle-through-the-heavens",
     "title": "Battle Through The Heavens",
     "cover": "https://files.catbox.moe/j43apq.jpg",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Di negeri di mana ada keajaiban hadir. Sebuah daratan di mana yang kuat membuat aturan dan yang lemah harus mematuhi. Sebuah daratan yang penuh dengan harta memikat dan kecantikan namun juga penuh dengan bahaya yang tak terduga. Xiao Yan, yang telah menunjukkan bakat tidak pernah terlihat dalam beberapa dekade, tiba-tiba tiga tahun lalu kehilangan segalanya, kekuatannya, reputasinya, dan janjinya untuk ibunya. Apa sihir telah menyebabkan dia kehilangan semua kekuatannya? Dan mengapa tunangannya tiba-tiba muncul?"
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-10",
+            "images": [
+                "https://files.catbox.moe/k7uqkj.jpg",
+                "https://files.catbox.moe/phh4xp.jpg",
+                "https://files.catbox.moe/do1vf7.jpg",
+                "https://files.catbox.moe/wj8maa.jpg",
+                "https://files.catbox.moe/oq0a7p.jpg",
+                "https://files.catbox.moe/3iedyz.jpg",
+                "https://files.catbox.moe/juqct3.jpg",
+                "https://files.catbox.moe/qczlg9.jpg",
+                "https://files.catbox.moe/xemiir.jpg",
+                "https://files.catbox.moe/ziglrp.jpg",
+                "https://files.catbox.moe/fj1u3l.jpg",
+                "https://files.catbox.moe/v37y6x.jpg",
+                "https://files.catbox.moe/m6k3sl.jpg",
+                "https://files.catbox.moe/ly19yp.jpg",
+                "https://files.catbox.moe/rd2w8e.jpg",
+                "https://files.catbox.moe/d9uz8z.jpg",
+                "https://files.catbox.moe/2vcoeu.jpg",
+                "https://files.catbox.moe/60b428.jpg",
+                "https://files.catbox.moe/s5j49u.jpg",
+                "https://files.catbox.moe/0wcc8d.jpg",
+                "https://files.catbox.moe/nh6sr0.jpg",
+                "https://files.catbox.moe/xjm005.jpg",
+                "https://files.catbox.moe/yfnt03.jpg",
+                "https://files.catbox.moe/kcndsw.jpg",
+                "https://files.catbox.moe/j8clyo.jpg",
+                "https://files.catbox.moe/w2z73m.jpg",
+                "https://files.catbox.moe/yqecz6.jpg",
+                "https://files.catbox.moe/ft2fuj.jpg",
+                "https://files.catbox.moe/osqhdi.jpg",
+                "https://files.catbox.moe/4ui7rr.jpg",
+                "https://files.catbox.moe/v81z5s.jpg",
+                "https://files.catbox.moe/qbsewl.jpg",
+                "https://files.catbox.moe/6elvlh.jpg",
+                "https://files.catbox.moe/xer3rc.jpg",
+                "https://files.catbox.moe/910y49.jpg",
+                "https://files.catbox.moe/rok8fm.jpg",
+                "https://files.catbox.moe/byuqbi.jpg",
+                "https://files.catbox.moe/r4pi7t.jpg",
+                "https://files.catbox.moe/ytofsy.jpg"
+            ]
+        }
+    ],
     "last_updated": ""
 }
