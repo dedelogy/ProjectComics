@@ -7,6 +7,45 @@
     },
     "chapters": [
         {
+            "ch_num": 80.0,
+            "release_date": "2026-02-11",
+            "images": [
+                "https://files.catbox.moe/gxycq5.webp",
+                "https://files.catbox.moe/q0vbrg.webp",
+                "https://files.catbox.moe/a8qft8.webp",
+                "https://files.catbox.moe/i0w32b.webp",
+                "https://files.catbox.moe/muxa0k.webp",
+                "https://files.catbox.moe/i708by.webp",
+                "https://files.catbox.moe/drlh4l.webp",
+                "https://files.catbox.moe/04glox.webp",
+                "https://files.catbox.moe/u79dlm.webp",
+                "https://files.catbox.moe/l7a3u3.webp",
+                "https://files.catbox.moe/fjfy4u.webp",
+                "https://files.catbox.moe/mo9lw7.webp",
+                "https://files.catbox.moe/934q0p.webp"
+            ]
+        },
+        {
+            "ch_num": 79.0,
+            "release_date": "2026-02-11",
+            "images": [
+                "https://files.catbox.moe/aqb191.webp",
+                "https://files.catbox.moe/tefsby.webp",
+                "https://files.catbox.moe/lw880t.webp",
+                "https://files.catbox.moe/mrbry8.webp",
+                "https://files.catbox.moe/wlbwuo.webp",
+                "https://files.catbox.moe/sojxnk.webp",
+                "https://files.catbox.moe/4ja68o.webp",
+                "https://files.catbox.moe/ze224m.webp",
+                "https://files.catbox.moe/qjjg25.webp",
+                "https://files.catbox.moe/mwkwug.webp",
+                "https://files.catbox.moe/zqxz9f.webp",
+                "https://files.catbox.moe/leid83.webp",
+                "https://files.catbox.moe/41mb0e.webp",
+                "https://files.catbox.moe/934q0p.webp"
+            ]
+        },
+        {
             "ch_num": 78.0,
             "release_date": "2026-02-11",
             "images": [
