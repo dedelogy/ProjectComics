@@ -1,5 +1,12 @@
 [
   {
+    "title": "Hello? Veterinarian!",
+    "slug": "hello-veterinarian",
+    "cover": "https://files.catbox.moe/94opsl.jpeg",
+    "last_updated": "2026-02-11T10:15:05.264872",
+    "total_chapters": 118
+  },
+  {
     "title": "Petualangan Kim Ohjin Bersama Hewan-Hewan Aneh",
     "slug": "petualangan-kim-ohjin-bersama-hewan-hewan-aneh",
     "cover": "https://files.catbox.moe/tcxxwq.png",
@@ -126,13 +133,6 @@
     "total_chapters": 0
   },
   {
-    "title": "Hello? Veterinarian!",
-    "slug": "hello-veterinarian",
-    "cover": "https://files.catbox.moe/94opsl.jpeg",
-    "last_updated": "",
-    "total_chapters": 117
-  },
-  {
     "title": "Hiding A Logistics Center In The Apocalypse",
     "slug": "hiding-a-logistics-center-in-the-apocalypse",
     "cover": "",
@@ -178,6 +178,13 @@
     "title": "My Younger Sister Was A Genius",
     "slug": "my-younger-sister-was-a-genius",
     "cover": "",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
+    "title": "Nasib Karyawan Di Kiamat\u00a0Es",
+    "slug": "nasib-karyawan-di-kiamat-es",
+    "cover": "https://files.catbox.moe/8o52mm.png",
     "last_updated": "",
     "total_chapters": 0
   },
