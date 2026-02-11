@@ -2,7 +2,59 @@
     "slug": "lord-of-money",
     "title": "Lord Of Money",
     "cover": "https://files.catbox.moe/frxezh.jpeg",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Manhwa Lord of Money yang dibuat oleh komikus bernama Mu Jang (무장) ini bercerita tentang Cheon Joong Myung, putra ketiga dari CEO perusahaan terkaya kelima, Ji Gyoung Group. Dan asistennya bekerja di bawahnya, Seong Chang Ook. Sementara Seong Chang Ook mencoba membunuh Cheon Joong Myung dan menutupinya sebagai kecelakaan, Seong Chang Ook secara tidak sengaja disetrum bersama dengan bosnya. Saat itulah mereka menemukan diri mereka terjebak di tubuh satu sama lain… “Anda ingin saya menjadi seorang Playboy Konglomerat yang belum pernah dilihat dunia sebelumnya?” \"Saya akan membuka pintu ke neraka jika saya melakukan ini\" Ini adalah awal dari pawai tanpa akhir Cheon Joong Myung, Penguasa Uang."
+    },
+    "chapters": [
+        {
+            "ch_num": 3.0,
+            "release_date": "2026-02-11",
+            "images": [
+                "https://files.catbox.moe/2yh49n.jpg",
+                "https://files.catbox.moe/6d7gak.jpg",
+                "https://files.catbox.moe/3hvre6.jpg",
+                "https://files.catbox.moe/gmwgpz.jpg",
+                "https://files.catbox.moe/py1q8e.jpg",
+                "https://files.catbox.moe/o42w62.jpg",
+                "https://files.catbox.moe/3v34m6.jpg",
+                "https://files.catbox.moe/ay8e1q.jpg",
+                "https://files.catbox.moe/e4amlt.jpg"
+            ]
+        },
+        {
+            "ch_num": 2.0,
+            "release_date": "2026-02-11",
+            "images": [
+                "https://files.catbox.moe/2yh49n.jpg",
+                "https://files.catbox.moe/edrost.jpg",
+                "https://files.catbox.moe/wqsmj6.jpg",
+                "https://files.catbox.moe/csasfc.jpg",
+                "https://files.catbox.moe/96tzyg.jpg",
+                "https://files.catbox.moe/2m18r7.jpg",
+                "https://files.catbox.moe/cp6gvz.jpg",
+                "https://files.catbox.moe/y7551y.jpg"
+            ]
+        },
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-11",
+            "images": [
+                "https://files.catbox.moe/2yh49n.jpg",
+                "https://files.catbox.moe/ebgahu.jpg",
+                "https://files.catbox.moe/i21vgw.jpg",
+                "https://files.catbox.moe/48hdae.jpg",
+                "https://files.catbox.moe/lmhs5d.jpg",
+                "https://files.catbox.moe/k1iyz8.jpg",
+                "https://files.catbox.moe/i7a6y0.jpg",
+                "https://files.catbox.moe/8q3ifm.jpg",
+                "https://files.catbox.moe/kj22kf.jpg",
+                "https://files.catbox.moe/kupl7n.jpg",
+                "https://files.catbox.moe/grvc47.jpg",
+                "https://files.catbox.moe/okkggg.jpg",
+                "https://files.catbox.moe/26nt7x.jpg",
+                "https://files.catbox.moe/qx9c82.jpg"
+            ]
+        }
+    ],
     "last_updated": ""
 }
