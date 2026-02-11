@@ -2,7 +2,20 @@
     "slug": "the-crown-prince-that-sells-medicine",
     "title": "The Crown Prince That Sells Medicine",
     "cover": "",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "I’m the crown prince? The frail and sickly crown prince in the novel? But I’m a traditional Korean doctor who specializes in medicine. I guess it can’t be helped. Reforming internal constitution, recovering of energy, invigorating vital energy, and increasing vitality. I’ll take care of my body from now on.Original Novel:Naver SeriesOriginal Webtoon:Naver Webtoon, Naver Series"
+    },
+    "chapters": [
+        {
+            "ch_num": 16.0,
+            "release_date": "2026-02-12",
+            "images": [
+                "https://files.catbox.moe/6hzont.jpg",
+                "https://files.catbox.moe/j9156r.jpg",
+                "https://files.catbox.moe/1q674w.jpg",
+                "https://files.catbox.moe/4z53tp.jpg"
+            ]
+        }
+    ],
     "last_updated": ""
 }
