@@ -7,6 +7,16 @@
     },
     "chapters": [
         {
+            "ch_num": 123.0,
+            "release_date": "2026-02-11",
+            "images": [
+                "https://files.catbox.moe/s2eo0s.jpg",
+                "https://files.catbox.moe/ih5sv5.jpg",
+                "https://files.catbox.moe/2yt5ma.jpg",
+                "https://files.catbox.moe/8y6l94.jpg"
+            ]
+        },
+        {
             "ch_num": 122.0,
             "release_date": "2026-02-11",
             "images": [
