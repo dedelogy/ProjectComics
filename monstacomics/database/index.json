@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Man",
+    "slug": "the-man",
+    "cover": "https://files.catbox.moe/y1h1lk.png",
+    "last_updated": "2026-02-12T01:05:48.039189",
+    "total_chapters": 132
+  },
+  {
     "title": "Lord Of Money",
     "slug": "lord-of-money",
     "cover": "https://files.catbox.moe/frxezh.jpeg",
@@ -224,11 +231,11 @@
     "total_chapters": 0
   },
   {
-    "title": "The Man",
-    "slug": "the-man",
-    "cover": "https://files.catbox.moe/y1h1lk.png",
+    "title": "The New Employee Kim Chul-Soo",
+    "slug": "the-new-employee-kim-chul-soo",
+    "cover": "",
     "last_updated": "",
-    "total_chapters": 131
+    "total_chapters": 0
   },
   {
     "title": "The Ultimate Shut-In",
