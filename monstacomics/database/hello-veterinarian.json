@@ -2,7 +2,20 @@
     "slug": "hello-veterinarian",
     "title": "Hello? Veterinarian!",
     "cover": "https://files.catbox.moe/94opsl.jpeg",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Lee Joon adalah seorang dokter hewan yang baru saja membuka klinik hewan sendiri. Di hari dia mendapatkan pasien pertamanya, dia tersadar bahwa ternyata dia bisa mengerti apa yang dikatakan oleh hewan-hewan. Dengan kemampuannya itu, klinik hewan tersebut menjadi kebanjiran tamu. Akan tetapi, kucing-kucing di Evergreen Park menganggapnya sebagai orang jahat dan petualangan dimulai dari sana.Sinopsis by: Alresca"
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-11",
+            "images": [
+                "https://files.catbox.moe/9udbdb.png",
+                "https://files.catbox.moe/dbfn8j.png",
+                "https://files.catbox.moe/nce79l.png",
+                "https://files.catbox.moe/jfuvek.png"
+            ]
+        }
+    ],
     "last_updated": ""
 }
