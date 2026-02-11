@@ -1,5 +1,12 @@
 [
   {
+    "title": "Lord Of Money",
+    "slug": "lord-of-money",
+    "cover": "https://files.catbox.moe/frxezh.jpeg",
+    "last_updated": "2026-02-11T20:37:24.907651",
+    "total_chapters": 279
+  },
+  {
     "title": "Nasib Karyawan Di Kiamat\u00a0Es",
     "slug": "nasib-karyawan-di-kiamat-es",
     "cover": "https://files.catbox.moe/8o52mm.png",
@@ -182,13 +189,6 @@
     "total_chapters": 0
   },
   {
-    "title": "Lord Of Money",
-    "slug": "lord-of-money",
-    "cover": "https://files.catbox.moe/frxezh.jpeg",
-    "last_updated": "",
-    "total_chapters": 278
-  },
-  {
     "title": "My Younger Sister Was A Genius",
     "slug": "my-younger-sister-was-a-genius",
     "cover": "",
@@ -219,6 +219,13 @@
   {
     "title": "Si Tampan Yang Jenius Sejak Lahir",
     "slug": "si-tampan-yang-jenius-sejak-lahir",
+    "cover": "",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
+    "title": "The Man",
+    "slug": "the-man",
     "cover": "",
     "last_updated": "",
     "total_chapters": 0
