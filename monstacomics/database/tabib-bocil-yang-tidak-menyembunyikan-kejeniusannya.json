@@ -7,6 +7,42 @@
     },
     "chapters": [
         {
+            "ch_num": 29.0,
+            "release_date": "2026-02-12",
+            "images": [
+                "https://files.catbox.moe/331zyn.webp",
+                "https://files.catbox.moe/waiyhu.webp",
+                "https://files.catbox.moe/6ae6yo.webp",
+                "https://files.catbox.moe/k1huaa.webp",
+                "https://files.catbox.moe/kpn8a3.webp",
+                "https://files.catbox.moe/c76buk.webp",
+                "https://files.catbox.moe/cwuz31.webp",
+                "https://files.catbox.moe/cph2ku.webp",
+                "https://files.catbox.moe/353ah9.webp",
+                "https://files.catbox.moe/7bupwr.webp",
+                "https://files.catbox.moe/ubtu09.webp",
+                "https://files.catbox.moe/spbeyv.webp",
+                "https://files.catbox.moe/lkjygt.webp",
+                "https://files.catbox.moe/j41wp6.webp",
+                "https://files.catbox.moe/q6xx0p.webp",
+                "https://files.catbox.moe/h186kb.webp",
+                "https://files.catbox.moe/wi37vr.webp",
+                "https://files.catbox.moe/wg2oac.webp",
+                "https://files.catbox.moe/8cs7is.webp",
+                "https://files.catbox.moe/2ta3sp.webp",
+                "https://files.catbox.moe/tc8lqb.webp",
+                "https://files.catbox.moe/1fnt2j.webp",
+                "https://files.catbox.moe/72a116.webp",
+                "https://files.catbox.moe/gsma2b.webp",
+                "https://files.catbox.moe/7hkl7k.webp",
+                "https://files.catbox.moe/ixc0o9.webp",
+                "https://files.catbox.moe/glz8pc.webp",
+                "https://files.catbox.moe/p7a5pm.webp",
+                "https://files.catbox.moe/1fbvc5.webp",
+                "https://files.catbox.moe/p8ch5m.webp"
+            ]
+        },
+        {
             "ch_num": 28.0,
             "release_date": "2026-02-12",
             "images": [
@@ -832,5 +868,5 @@
             ]
         }
     ],
-    "last_updated": ""
+    "last_updated": "2026-02-12T07:13:13.297689"
 }
