@@ -1,5 +1,12 @@
 [
   {
+    "title": "Beethoven Reborn",
+    "slug": "beethoven-reborn",
+    "cover": "https://files.catbox.moe/24rfu1.jpg",
+    "last_updated": "2026-02-12T20:23:14.988092",
+    "total_chapters": 73
+  },
+  {
     "title": "Seribu Wajah",
     "slug": "seribu-wajah",
     "cover": "https://files.catbox.moe/ah15gq.jpg",
@@ -189,13 +196,6 @@
     "total_chapters": 0
   },
   {
-    "title": "Beethoven Reborn",
-    "slug": "beethoven-reborn",
-    "cover": "https://files.catbox.moe/24rfu1.jpg",
-    "last_updated": "",
-    "total_chapters": 72
-  },
-  {
     "title": "Black Corporation: Joseon",
     "slug": "black-corporation-joseon",
     "cover": "https://files.catbox.moe/ilqstg.png",
@@ -289,6 +289,20 @@
   {
     "title": "NPC Yang Regresi Menjadi Jenius",
     "slug": "npc-yang-regresi-menjadi-jenius",
+    "cover": "",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
+    "title": "Office Worker Who Sees The Fate",
+    "slug": "office-worker-who-sees-fate",
+    "cover": "",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
+    "title": "Panen Kita Melimpah, Raja Iblis!",
+    "slug": "panen-kita-melimpah-raja-iblis",
     "cover": "",
     "last_updated": "",
     "total_chapters": 0
