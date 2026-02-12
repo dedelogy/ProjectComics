@@ -1,8 +1,28 @@
 {
     "slug": "spirit-farmer",
     "title": "Spirit Farmer",
-    "cover": "",
-    "metadata": {},
-    "chapters": [],
+    "cover": "https://files.catbox.moe/dalnof.jpg",
+    "metadata": {
+        "synopsis": "Selama 11 tahun, Lee Geonwoo berusaha keras untuk menjadi manusia super. Namun, pada akhirnya dia kembali ke rumah dan memulai kehidupan sebagai petani untuk membantu ayah ibunya. Saat dia sedang menjalani kehidupannya sebagai petani, tiba-tiba sebuah tanaman yang bisa berbicara muncul di depannya. Tapi, kenapa hanya dia yang bisa mendengarkan suaranya? Anehnya lagi, suatu hari tanaman itu berubah menjadi sesosok anak kecil! \"Hawa!!!!\". Bagaimana kehidupan bertani Lee Geonwoo akan berlanjut dengan kemunculan spirit, Hawa, di depannya? show the remaining"
+    },
+    "chapters": [
+        {
+            "ch_num": 0.0,
+            "release_date": "2026-02-12",
+            "images": [
+                "https://files.catbox.moe/hkd4ke.webp",
+                "https://files.catbox.moe/btlamg.webp",
+                "https://files.catbox.moe/zwcdzm.webp",
+                "https://files.catbox.moe/q2qhqq.webp",
+                "https://files.catbox.moe/tmh4jq.webp",
+                "https://files.catbox.moe/iuphuo.webp",
+                "https://files.catbox.moe/owvmw9.webp",
+                "https://files.catbox.moe/ijbx8v.webp",
+                "https://files.catbox.moe/e147lj.webp",
+                "https://files.catbox.moe/u4rp1x.webp",
+                "https://files.catbox.moe/9l2kf9.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
