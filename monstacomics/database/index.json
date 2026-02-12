@@ -1,5 +1,12 @@
 [
   {
+    "title": "Seribu Wajah",
+    "slug": "seribu-wajah",
+    "cover": "https://files.catbox.moe/ah15gq.jpg",
+    "last_updated": "2026-02-12T18:32:49.180123",
+    "total_chapters": 58
+  },
+  {
     "title": "Spirit Farmer",
     "slug": "spirit-farmer",
     "cover": "https://files.catbox.moe/dalnof.jpg",
@@ -189,6 +196,13 @@
     "total_chapters": 24
   },
   {
+    "title": "Di Umur 40-An",
+    "slug": "di-umur-40-an",
+    "cover": "",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
     "title": "Healing Life Through Camping In Another World",
     "slug": "healing-life-through-camping-in-another-world",
     "cover": "",
@@ -278,13 +292,6 @@
     "cover": "",
     "last_updated": "",
     "total_chapters": 0
-  },
-  {
-    "title": "Seribu Wajah",
-    "slug": "seribu-wajah",
-    "cover": "https://files.catbox.moe/ah15gq.jpg",
-    "last_updated": "",
-    "total_chapters": 57
   },
   {
     "title": "Si Tampan Yang Jenius Sejak Lahir",
