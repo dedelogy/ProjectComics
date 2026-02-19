@@ -2,7 +2,34 @@
     "slug": "im-being-misunderstood-as-a-soccer-genius",
     "title": "Aku Disangka Pemain Bola Yang Jenius",
     "cover": "https://files.catbox.moe/g1s23t.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Anak laki-laki Korea, Lee Jian, yang dibebaskan dari tim muda bergengsi di Italia, menghabiskan hari-harinya bermalas-malasan sebagai pemain pengganti bahkan setelah tiba di tim muda AC Firenze, seolah-olah dia sedang melarikan diri, seperti biasa, dia menyombongkan diri pada teman masa kecilnya, Kim Jiwoo, mengaku sebagai seorang jenius, tetapi kemudian dia mendengar berita mengejutkan bahwa Jiwoo akan datang ke Italia untuk belajar di luar negeri. Bertekad untuk tidak mengecewakan temannya yang berharga, Jiwoo, Jian bertekad untuk menjadi starter ..."
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-19",
+            "images": [
+                "https://files.catbox.moe/71rbge.webp",
+                "https://files.catbox.moe/k59i7w.webp",
+                "https://files.catbox.moe/ad6djl.webp",
+                "https://files.catbox.moe/54q5bw.webp",
+                "https://files.catbox.moe/wmrhz0.webp",
+                "https://files.catbox.moe/kch7tt.webp",
+                "https://files.catbox.moe/kbd1uz.webp",
+                "https://files.catbox.moe/7v7jad.webp",
+                "https://files.catbox.moe/50femz.webp",
+                "https://files.catbox.moe/8ny4ab.webp",
+                "https://files.catbox.moe/4t5yis.webp",
+                "https://files.catbox.moe/6biqdt.webp",
+                "https://files.catbox.moe/tq3sl6.webp",
+                "https://files.catbox.moe/w705s6.webp",
+                "https://files.catbox.moe/hatiey.webp",
+                "https://files.catbox.moe/tcnc6f.webp",
+                "https://files.catbox.moe/h0jzo3.webp",
+                "https://files.catbox.moe/934q0p.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
