@@ -7,6 +7,49 @@
     },
     "chapters": [
         {
+            "ch_num": 32.0,
+            "release_date": "2026-02-19",
+            "images": [
+                "https://files.catbox.moe/t0tm51.webp",
+                "https://files.catbox.moe/o4cpz7.webp",
+                "https://files.catbox.moe/9249z4.webp",
+                "https://files.catbox.moe/5fb8wb.webp",
+                "https://files.catbox.moe/0x4snr.webp",
+                "https://files.catbox.moe/3uuk48.webp",
+                "https://files.catbox.moe/2397zn.webp",
+                "https://files.catbox.moe/bsp07q.webp",
+                "https://files.catbox.moe/gjpgmv.webp",
+                "https://files.catbox.moe/skfxji.webp",
+                "https://files.catbox.moe/w2a3k1.webp",
+                "https://files.catbox.moe/a4w95n.webp",
+                "https://files.catbox.moe/jv92kn.webp",
+                "https://files.catbox.moe/qo4uhg.webp",
+                "https://files.catbox.moe/kh7rnx.webp",
+                "https://files.catbox.moe/ucufte.webp",
+                "https://files.catbox.moe/qe7l62.webp",
+                "https://files.catbox.moe/u4611w.webp",
+                "https://files.catbox.moe/bsc3od.webp",
+                "https://files.catbox.moe/g53nic.webp",
+                "https://files.catbox.moe/m31egl.webp",
+                "https://files.catbox.moe/74b8gt.webp",
+                "https://files.catbox.moe/1q99u5.webp",
+                "https://files.catbox.moe/ryr4v6.webp",
+                "https://files.catbox.moe/de9rjp.webp",
+                "https://files.catbox.moe/gs7cz6.webp",
+                "https://files.catbox.moe/10wuat.webp",
+                "https://files.catbox.moe/khphow.webp",
+                "https://files.catbox.moe/eom8a8.webp",
+                "https://files.catbox.moe/pn16li.webp",
+                "https://files.catbox.moe/pvs6fv.webp",
+                "https://files.catbox.moe/qhqeoo.webp",
+                "https://files.catbox.moe/p6vnfn.webp",
+                "https://files.catbox.moe/6cng9w.webp",
+                "https://files.catbox.moe/sm14p6.webp",
+                "https://files.catbox.moe/byh9ee.webp",
+                "https://files.catbox.moe/d965v7.webp"
+            ]
+        },
+        {
             "ch_num": 31.0,
             "release_date": "2026-02-12",
             "images": [
@@ -1555,5 +1598,5 @@
             ]
         }
     ],
-    "last_updated": "2026-02-12T17:43:17.473047"
+    "last_updated": "2026-02-19T23:39:25.537254"
 }
