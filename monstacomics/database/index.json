@@ -1,5 +1,12 @@
 [
   {
+    "title": "Cermin",
+    "slug": "cermin",
+    "cover": "https://files.catbox.moe/4t9k1v.webp",
+    "last_updated": "2026-02-20T02:26:29.300707",
+    "total_chapters": 20
+  },
+  {
     "title": "Aku Disangka Pemain Bola Yang Jenius",
     "slug": "im-being-misunderstood-as-a-soccer-genius",
     "cover": "https://files.catbox.moe/g1s23t.png",
@@ -217,13 +224,6 @@
     "total_chapters": 24
   },
   {
-    "title": "Cermin",
-    "slug": "cermin",
-    "cover": "https://files.catbox.moe/4t9k1v.webp",
-    "last_updated": "",
-    "total_chapters": 19
-  },
-  {
     "title": "Di Umur 40-An",
     "slug": "di-umur-40-an",
     "cover": "",
@@ -304,6 +304,13 @@
     "title": "Kuntilanak Toilet",
     "slug": "kuntilanak-toilet",
     "cover": "",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
+    "title": "Menjadi Instruktur Ilmu Pedang Di Akademi",
+    "slug": "menjadi-instruktur-ilmu-pedang-di-akademi",
+    "cover": "https://files.catbox.moe/h5xj7i.png",
     "last_updated": "",
     "total_chapters": 0
   },
