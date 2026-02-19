@@ -7,6 +7,51 @@
     },
     "chapters": [
         {
+            "ch_num": 3.0,
+            "release_date": "2026-02-19",
+            "images": [
+                "https://files.catbox.moe/tq13p2.webp",
+                "https://files.catbox.moe/qtoxqa.webp",
+                "https://files.catbox.moe/1ad43s.webp",
+                "https://files.catbox.moe/dzwbo3.webp",
+                "https://files.catbox.moe/jo62nb.webp",
+                "https://files.catbox.moe/ujr395.webp",
+                "https://files.catbox.moe/g4p1d3.webp",
+                "https://files.catbox.moe/zdlsi7.webp",
+                "https://files.catbox.moe/z0myan.webp",
+                "https://files.catbox.moe/ps6a3e.webp",
+                "https://files.catbox.moe/cl0cg0.webp",
+                "https://files.catbox.moe/2ir74e.webp",
+                "https://files.catbox.moe/tf75yp.webp",
+                "https://files.catbox.moe/26xl39.webp"
+            ]
+        },
+        {
+            "ch_num": 2.0,
+            "release_date": "2026-02-19",
+            "images": [
+                "https://files.catbox.moe/orcq62.webp",
+                "https://files.catbox.moe/3ztn6e.webp",
+                "https://files.catbox.moe/mp4woy.webp",
+                "https://files.catbox.moe/azj0yf.webp",
+                "https://files.catbox.moe/m34d03.webp",
+                "https://files.catbox.moe/73dzpc.webp",
+                "https://files.catbox.moe/28y6jx.webp",
+                "https://files.catbox.moe/3c7yq7.webp",
+                "https://files.catbox.moe/62xa14.webp",
+                "https://files.catbox.moe/65wf2y.webp",
+                "https://files.catbox.moe/p21ec4.webp",
+                "https://files.catbox.moe/jgxnld.webp",
+                "https://files.catbox.moe/p5awam.webp",
+                "https://files.catbox.moe/qek2sf.webp",
+                "https://files.catbox.moe/v43ue3.webp",
+                "https://files.catbox.moe/z9aqv1.webp",
+                "https://files.catbox.moe/jg6duh.webp",
+                "https://files.catbox.moe/t1sslv.webp",
+                "https://files.catbox.moe/v34ks7.webp"
+            ]
+        },
+        {
             "ch_num": 1.0,
             "release_date": "2026-02-19",
             "images": [
