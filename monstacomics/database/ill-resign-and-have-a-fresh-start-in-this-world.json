@@ -2,7 +2,29 @@
     "slug": "ill-resign-and-have-a-fresh-start-in-this-world",
     "title": "I'll Resign And Have A Fresh Start In This World",
     "cover": "https://files.catbox.moe/mjfdqs.jpg",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Karakter utama, Cho Isu, menjalani kehidupan biasa tapi bahagia. Lima tahun yang lalu, dia tiba-tiba kehilangan orang tuanya, dan menjadi pria yang hancur, saat dia berjuang setiap hari. Ketika dia kelelahan dari kehidupan sehari-hari yang menyesakkan, sebuah portal terbuka di ruangan itu. Tempat yang belum pernah dia kunjungi, tempat yang mungkin dia tidak tahu. Kehidupan penyembuhan untuk dinikmati di dunia yang berbeda dimulai sebagai orang biasa dan berubah menjadi tuan feodal."
+    },
+    "chapters": [
+        {
+            "ch_num": 0.0,
+            "release_date": "2026-02-20",
+            "images": [
+                "https://files.catbox.moe/h2baja.jpg",
+                "https://files.catbox.moe/dzh13j.jpg",
+                "https://files.catbox.moe/29c8f1.jpg",
+                "https://files.catbox.moe/dwhl78.jpg",
+                "https://files.catbox.moe/sm7u4m.jpg",
+                "https://files.catbox.moe/2r9zvo.jpg",
+                "https://files.catbox.moe/xcq0rb.jpg",
+                "https://files.catbox.moe/ar8hvw.jpg",
+                "https://files.catbox.moe/swurg6.jpg",
+                "https://files.catbox.moe/kedjx1.jpg",
+                "https://files.catbox.moe/5pmq2b.jpg",
+                "https://files.catbox.moe/y2d00q.jpg",
+                "https://files.catbox.moe/k6d8jg.jpg"
+            ]
+        }
+    ],
     "last_updated": ""
 }
