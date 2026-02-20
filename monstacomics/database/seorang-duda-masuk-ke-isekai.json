@@ -2,7 +2,25 @@
     "slug": "seorang-duda-masuk-ke-isekai",
     "title": "Seorang Duda Masuk Ke Isekai",
     "cover": "",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Suatu hari, istriku menghilang. Putriku yang masih kecil menderita penyakit langka yang belum ditemukan obatnya, dan hidup seakan tak memberi kesempatan untuk bernapas. Tepat ketika aku hampir menyerah pada segalanya—tiba-tiba aku mendapati diriku terhanyut ke dunia lain bersama putriku. Dan bukan sembarang dunia… melainkan novel fantasi gelap dan mengerikan yang ditulis istriku! Aku harus menyelamatkan putriku, apa pun yang terjadi."
+    },
+    "chapters": [
+        {
+            "ch_num": 6.0,
+            "release_date": "2026-02-20",
+            "images": [
+                "https://files.catbox.moe/705t3s.webp",
+                "https://files.catbox.moe/wbwai7.webp",
+                "https://files.catbox.moe/5ksthq.webp",
+                "https://files.catbox.moe/yzokqj.webp",
+                "https://files.catbox.moe/3fcyvg.webp",
+                "https://files.catbox.moe/drq3zd.webp",
+                "https://files.catbox.moe/1tu7k7.webp",
+                "https://files.catbox.moe/ya6cdk.webp",
+                "https://files.catbox.moe/bz9kky.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
