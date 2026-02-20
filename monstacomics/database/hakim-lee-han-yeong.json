@@ -7,6 +7,16 @@
     },
     "chapters": [
         {
+            "ch_num": 193.0,
+            "release_date": "2026-02-20",
+            "images": [
+                "https://files.catbox.moe/1lv8uc.webp",
+                "https://files.catbox.moe/cvjdrk.webp",
+                "https://files.catbox.moe/dusym1.webp",
+                "https://files.catbox.moe/clzzk9.webp"
+            ]
+        },
+        {
             "ch_num": 192.0,
             "release_date": "2026-02-20",
             "images": [
@@ -4470,5 +4480,5 @@
             ]
         }
     ],
-    "last_updated": ""
+    "last_updated": "2026-02-20T21:28:35.599688"
 }
