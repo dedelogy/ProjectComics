@@ -2,7 +2,48 @@
     "slug": "genius-gelandang-sepak-bola",
     "title": "Genius Gelandang Sepak Bola",
     "cover": "https://files.catbox.moe/nmdl7e.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Aku bisa melihatnya. Alur permainan yang tak bisa dilihat orang lain! Song Yujun, yang mencintai sepak bola lebih dari siapa pun, tiba-tiba terserang buta warna dan terpaksa berhenti dari olahraga itu. 15 tahun berlalu—dan ia menemui akhir yang tak adil. “Sekali saja.” “Seandainya aku bisa bermain di lapangan sekali lagi…!” Tepat saat itu, ia terlempar kembali ke 15 tahun yang lalu—ke masa ketika ia masih bisa melihat warna. Saat ia hendak menendang bola, gembira karena mendapat kesempatan bermain sepak bola lagi, cahaya-cahaya aneh mulai muncul di depan matanya. Warna-warna yang menunjukkan alur pertandingan mulai muncul—dan begitulah awal kelahirannya kembali sebagai gelandang jenius. Sebuah kisah olahraga fantasi modern!"
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-21",
+            "images": [
+                "https://files.catbox.moe/5vw57k.webp",
+                "https://files.catbox.moe/sfyygv.webp",
+                "https://files.catbox.moe/9iomo2.webp",
+                "https://files.catbox.moe/od513h.webp",
+                "https://files.catbox.moe/pch655.webp",
+                "https://files.catbox.moe/8sn8yb.webp",
+                "https://files.catbox.moe/ojm14n.webp",
+                "https://files.catbox.moe/i10fxc.webp",
+                "https://files.catbox.moe/39mjdn.webp",
+                "https://files.catbox.moe/gej613.webp",
+                "https://files.catbox.moe/94wbwc.webp",
+                "https://files.catbox.moe/zv7y7l.webp",
+                "https://files.catbox.moe/b66uks.webp",
+                "https://files.catbox.moe/i2is6b.webp",
+                "https://files.catbox.moe/n6g1sl.webp",
+                "https://files.catbox.moe/2atc33.webp",
+                "https://files.catbox.moe/ispbst.webp",
+                "https://files.catbox.moe/hz5vow.webp",
+                "https://files.catbox.moe/k7gnmy.webp",
+                "https://files.catbox.moe/fnvzp6.webp",
+                "https://files.catbox.moe/0byugo.webp",
+                "https://files.catbox.moe/rizibb.webp",
+                "https://files.catbox.moe/gs9m6z.webp",
+                "https://files.catbox.moe/xlpzoc.webp",
+                "https://files.catbox.moe/7y7ob4.webp",
+                "https://files.catbox.moe/503nov.webp",
+                "https://files.catbox.moe/w1uf1y.webp",
+                "https://files.catbox.moe/684ih7.webp",
+                "https://files.catbox.moe/v7bdtt.webp",
+                "https://files.catbox.moe/7tdc9e.webp",
+                "https://files.catbox.moe/2q4vzu.webp",
+                "https://files.catbox.moe/t9u1re.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
