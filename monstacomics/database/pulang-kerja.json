@@ -2,7 +2,24 @@
     "slug": "pulang-kerja",
     "title": "Pulang Kerja",
     "cover": "",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Min-su Lee adalah pemimpin tim ESG di konglomerat besar Soya Group. Wajahnya selalu datar, hidupnya sederhana, dan prinsipnya cuma satu: “Kerja boleh ribet, tapi pulang harus tepat waktu!”Sayangnya, kedamaian itu buyar begitu Kang Chae-eun, putri bungsu sang ketua perusahaan, tiba-tiba masuk ke timnya. Sejak hari pertama, suasana jadi heboh—mulai dari drama politik kantor, rekan kerja tukang cari muka, sampai bos-bos yang hobi bikin masalah.Tanpa mau, Min-su terseret ke pusaran intrik kantor yang absurd. Tapi di balik semua itu, tekadnya tetap sama:pulang kerja tepat waktu.Apakah Min-su bisa mempertahankan mimpi sucinya untuk pulang kerja tepat waktu? Atau malah terjebak selamanya dalam drama kantor yang penuh gila-gilaan?"
+    },
+    "chapters": [
+        {
+            "ch_num": 4.0,
+            "release_date": "2026-02-20",
+            "images": [
+                "https://files.catbox.moe/ubbstg.webp",
+                "https://files.catbox.moe/d4mgz7.webp",
+                "https://files.catbox.moe/c6ic38.webp",
+                "https://files.catbox.moe/e8i343.webp",
+                "https://files.catbox.moe/0e2129.webp",
+                "https://files.catbox.moe/j7wvro.webp",
+                "https://files.catbox.moe/0n7ygp.webp",
+                "https://files.catbox.moe/uqmlgi.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
