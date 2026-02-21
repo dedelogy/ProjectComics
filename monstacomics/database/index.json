@@ -1,5 +1,12 @@
 [
   {
+    "title": "Dukun Saham",
+    "slug": "dukun-saham",
+    "cover": "https://files.catbox.moe/0v1h9t.webp",
+    "last_updated": "2026-02-22T03:55:29.043379",
+    "total_chapters": 33
+  },
+  {
     "title": "Gadis Zodiak",
     "slug": "gadis-zodiak",
     "cover": "https://files.catbox.moe/lqs4f9.webp",
@@ -336,13 +343,6 @@
     "total_chapters": 0
   },
   {
-    "title": "Dukun Saham",
-    "slug": "dukun-saham",
-    "cover": "https://files.catbox.moe/0v1h9t.webp",
-    "last_updated": "",
-    "total_chapters": 32
-  },
-  {
     "title": "Genius Grandson Of The Loan Shark King",
     "slug": "genius-grandson-of-the-loan-shark-king",
     "cover": "",
@@ -387,6 +387,13 @@
   {
     "title": "Juru Masak Dungeon",
     "slug": "juru-masak-dungeon",
+    "cover": "",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
+    "title": "Karyawan Level Bawah Yang Bisa Segalanya",
+    "slug": "karyawan-level-bawah-yang-bisa-segalanya",
     "cover": "",
     "last_updated": "",
     "total_chapters": 0
