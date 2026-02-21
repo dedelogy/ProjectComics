@@ -3,8 +3,23 @@
     "title": "The Greatest Estate Developer",
     "cover": "https://files.catbox.moe/u28onz.jpg",
     "metadata": {
-        "synopsis": "N/A"
+        "synopsis": "Kim Soo-Ho, seorang insinyur sipil, menjadi bangsawan dari sebuah novel. Tapi apa ini? Harta saya akan segera dihancurkan? Kemudian saya harus mendesain, membangun, dan menjual."
     },
-    "chapters": [],
+    "chapters": [
+        {
+            "ch_num": 0.1,
+            "release_date": "2026-02-21",
+            "images": [
+                "https://files.catbox.moe/e6pbrb.jpg",
+                "https://files.catbox.moe/cabtep.jpg",
+                "https://files.catbox.moe/xymfbw.jpg",
+                "https://files.catbox.moe/npeqbf.jpg",
+                "https://files.catbox.moe/g8zmuy.jpg",
+                "https://files.catbox.moe/60fel1.jpg",
+                "https://files.catbox.moe/6tppp5.jpg",
+                "https://files.catbox.moe/haageb.jpg"
+            ]
+        }
+    ],
     "last_updated": "2026-02-21T08:48:56.574825"
 }
