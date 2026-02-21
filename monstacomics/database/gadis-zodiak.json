@@ -2,7 +2,46 @@
     "slug": "gadis-zodiak",
     "title": "Gadis Zodiak",
     "cover": "https://files.catbox.moe/lqs4f9.webp",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Lee Wuju tidak pernah menyangka hidupnya akan berubah secepat ini. Awalnya hanya siswa SMA biasa, kini ia ditunjuk menjadi wasit dalam turnamen rahasia para Dewa Zodiak.Gara-gara seekor kucing aneh, dua belas gadis berkekuatan dewa turun ke dunia—dan satu per satu mulai mendekatinya. Ada yang ingin menang, ada yang punya niat lain.Pertarungan para dewa dimulai. Dan satu-satunya manusia yang terlibat di dalamnya… adalah Lee Wuju."
+    },
+    "chapters": [
+        {
+            "ch_num": 0.0,
+            "release_date": "2026-02-21",
+            "images": [
+                "https://files.catbox.moe/kx84qg.webp",
+                "https://files.catbox.moe/86rnp6.webp",
+                "https://files.catbox.moe/c0x8t5.webp",
+                "https://files.catbox.moe/xz1t6m.webp",
+                "https://files.catbox.moe/5o5mq1.webp",
+                "https://files.catbox.moe/4ryx9a.webp",
+                "https://files.catbox.moe/yfocqr.webp",
+                "https://files.catbox.moe/fa3cnf.webp",
+                "https://files.catbox.moe/9b1da6.webp",
+                "https://files.catbox.moe/kbv7o1.webp",
+                "https://files.catbox.moe/zm6djb.webp",
+                "https://files.catbox.moe/lpr4ra.webp",
+                "https://files.catbox.moe/gzugln.webp",
+                "https://files.catbox.moe/llm5pj.webp",
+                "https://files.catbox.moe/mskjz1.webp",
+                "https://files.catbox.moe/8a3aft.webp",
+                "https://files.catbox.moe/zpzef9.webp",
+                "https://files.catbox.moe/htczjn.webp",
+                "https://files.catbox.moe/dcmhdj.webp",
+                "https://files.catbox.moe/p3ylvz.webp",
+                "https://files.catbox.moe/281dic.webp",
+                "https://files.catbox.moe/nn1vbh.webp",
+                "https://files.catbox.moe/peb6bh.webp",
+                "https://files.catbox.moe/9wc015.webp",
+                "https://files.catbox.moe/d1o1sm.webp",
+                "https://files.catbox.moe/lpzx87.webp",
+                "https://files.catbox.moe/vd6i91.webp",
+                "https://files.catbox.moe/ts4smo.webp",
+                "https://files.catbox.moe/e9amfd.webp",
+                "https://files.catbox.moe/mbv8tr.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
