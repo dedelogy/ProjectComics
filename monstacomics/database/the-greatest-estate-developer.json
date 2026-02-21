@@ -7,6 +7,29 @@
     },
     "chapters": [
         {
+            "ch_num": 0.3,
+            "release_date": "2026-02-21",
+            "images": [
+                "https://files.catbox.moe/btrebt.jpg",
+                "https://files.catbox.moe/ksqwpg.jpg",
+                "https://files.catbox.moe/36yo8y.jpg",
+                "https://files.catbox.moe/9fyaka.jpg",
+                "https://files.catbox.moe/3gcjk3.jpg"
+            ]
+        },
+        {
+            "ch_num": 0.2,
+            "release_date": "2026-02-21",
+            "images": [
+                "https://files.catbox.moe/btrebt.jpg",
+                "https://files.catbox.moe/e48fx0.jpg",
+                "https://files.catbox.moe/u8bjov.jpg",
+                "https://files.catbox.moe/7fnnzj.jpg",
+                "https://files.catbox.moe/4zfx81.jpg",
+                "https://files.catbox.moe/gv6s75.jpg"
+            ]
+        },
+        {
             "ch_num": 0.1,
             "release_date": "2026-02-21",
             "images": [
