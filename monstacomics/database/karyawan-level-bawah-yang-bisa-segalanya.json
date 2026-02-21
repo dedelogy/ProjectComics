@@ -1,8 +1,33 @@
 {
     "slug": "karyawan-level-bawah-yang-bisa-segalanya",
     "title": "Karyawan Level Bawah Yang Bisa Segalanya",
-    "cover": "",
-    "metadata": {},
-    "chapters": [],
+    "cover": "https://files.catbox.moe/ua3iin.jpg",
+    "metadata": {
+        "synopsis": "Chae Gyeong-jun, yang menyerah pada kuliah dan mimpinya karena krisis IMF, sekali lagi menghadapi keputusasaan karena biaya rawat inap neneknya yang tiba-tiba. Namun kemudian, seorang “Dermawan Misterius” turun tangan untuk menanggung biaya rumah sakit untuk keluarganya... “Siapa yang akan memberikan bantuan yang tidak membantu mereka sama sekali, dan mengapa?” Untuk mencari jawabannya, Gyeong-jun pergi ke Taeseong."
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-22",
+            "images": [
+                "https://files.catbox.moe/uah7lv.webp",
+                "https://files.catbox.moe/0m4i6n.webp",
+                "https://files.catbox.moe/ndoqiu.webp",
+                "https://files.catbox.moe/lgjr0i.webp",
+                "https://files.catbox.moe/ao6ewb.webp",
+                "https://files.catbox.moe/094r4u.webp",
+                "https://files.catbox.moe/ojauqi.webp",
+                "https://files.catbox.moe/vdyohx.webp",
+                "https://files.catbox.moe/e8lq76.webp",
+                "https://files.catbox.moe/ff8zhi.webp",
+                "https://files.catbox.moe/fqejcg.webp",
+                "https://files.catbox.moe/4nhcqn.webp",
+                "https://files.catbox.moe/1ps0gu.webp",
+                "https://files.catbox.moe/tym2cs.webp",
+                "https://files.catbox.moe/5wrikz.webp",
+                "https://files.catbox.moe/yq8v9b.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
