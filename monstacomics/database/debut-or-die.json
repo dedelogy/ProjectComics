@@ -7,6 +7,44 @@
     },
     "chapters": [
         {
+            "ch_num": 100.0,
+            "release_date": "2026-02-22",
+            "images": [
+                "https://files.catbox.moe/e8bdu1.webp",
+                "https://files.catbox.moe/x7i4m6.webp",
+                "https://files.catbox.moe/6xk81p.webp",
+                "https://files.catbox.moe/8rwq4d.webp",
+                "https://files.catbox.moe/c9n97i.webp",
+                "https://files.catbox.moe/tc91ey.webp",
+                "https://files.catbox.moe/wtkco9.webp",
+                "https://files.catbox.moe/0tpdbu.webp",
+                "https://files.catbox.moe/5vzlnj.webp",
+                "https://files.catbox.moe/3m8by2.webp",
+                "https://files.catbox.moe/c6vv9d.webp",
+                "https://files.catbox.moe/rdvuas.webp",
+                "https://files.catbox.moe/lcekel.webp",
+                "https://files.catbox.moe/12b34q.webp",
+                "https://files.catbox.moe/j0g3g7.webp",
+                "https://files.catbox.moe/mgu9p5.webp",
+                "https://files.catbox.moe/fi2vrf.webp",
+                "https://files.catbox.moe/d418h4.webp",
+                "https://files.catbox.moe/q38vl2.webp",
+                "https://files.catbox.moe/xc8mt5.webp",
+                "https://files.catbox.moe/z7ldel.webp",
+                "https://files.catbox.moe/jsblk5.webp",
+                "https://files.catbox.moe/zyrzax.webp",
+                "https://files.catbox.moe/ch3pii.webp",
+                "https://files.catbox.moe/jmw1a3.webp",
+                "https://files.catbox.moe/10egcq.webp",
+                "https://files.catbox.moe/4aipal.webp",
+                "https://files.catbox.moe/wj8zi2.webp",
+                "https://files.catbox.moe/myj92f.webp",
+                "https://files.catbox.moe/x6crzr.webp",
+                "https://files.catbox.moe/rgeu75.webp",
+                "https://files.catbox.moe/vlfi41.webp"
+            ]
+        },
+        {
             "ch_num": 99.0,
             "release_date": "2026-02-22",
             "images": [
@@ -3775,5 +3813,5 @@
             ]
         }
     ],
-    "last_updated": ""
+    "last_updated": "2026-02-22T06:47:26.513505"
 }
