@@ -7,6 +7,37 @@
     },
     "chapters": [
         {
+            "ch_num": 5.0,
+            "release_date": "2026-02-25",
+            "images": [
+                "https://files.catbox.moe/vetom2.webp",
+                "https://files.catbox.moe/r5hh4i.webp",
+                "https://files.catbox.moe/ktg15e.webp",
+                "https://files.catbox.moe/7cc0hl.webp",
+                "https://files.catbox.moe/eoa86r.webp",
+                "https://files.catbox.moe/vg70wm.webp",
+                "https://files.catbox.moe/8n1z6h.webp",
+                "https://files.catbox.moe/1re6qg.webp",
+                "https://files.catbox.moe/t8fx7h.webp"
+            ]
+        },
+        {
+            "ch_num": 4.0,
+            "release_date": "2026-02-25",
+            "images": [
+                "https://files.catbox.moe/jnxek4.webp",
+                "https://files.catbox.moe/7yxb78.webp",
+                "https://files.catbox.moe/yf6fdp.webp",
+                "https://files.catbox.moe/ktz0u0.webp",
+                "https://files.catbox.moe/8qw430.webp",
+                "https://files.catbox.moe/na0oa0.webp",
+                "https://files.catbox.moe/of7lxv.webp",
+                "https://files.catbox.moe/d2ayfq.webp",
+                "https://files.catbox.moe/n5m18x.webp",
+                "https://files.catbox.moe/yq8v9b.webp"
+            ]
+        },
+        {
             "ch_num": 3.0,
             "release_date": "2026-02-25",
             "images": [
