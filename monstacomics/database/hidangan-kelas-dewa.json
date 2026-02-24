@@ -2,7 +2,42 @@
     "slug": "hidangan-kelas-dewa",
     "title": "Hidangan Kelas Dewa",
     "cover": "https://files.catbox.moe/5itndl.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Hong Siwon, koki terhebat dalam sejarah Korea, tiba-tiba meninggal dunia. Wasiat terakhirnya sangat mengejutkan: semua koki di restorannya harus bersaing untuk mendapatkan posisi kepala koki. Seorang pemuda dengan \"lidah dewa\", Park Geonwoo, diundang untuk mengikuti kompetisi sengit ini. Dapatkah dia bertahan di medan perang \"Tae Mi-ok\" yang sengit di mana tidak ada seorang pun yang dapat dipercaya? Pertarungan kuliner sengit yang penuh dengan semangat, pertumbuhan, persahabatan, dan konflik. Siapa yang akan muncul sebagai pemenang utama?"
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-25",
+            "images": [
+                "https://files.catbox.moe/4qmxm1.webp",
+                "https://files.catbox.moe/m75pya.webp",
+                "https://files.catbox.moe/qo8mxt.webp",
+                "https://files.catbox.moe/1hem5p.webp",
+                "https://files.catbox.moe/mwsjeo.webp",
+                "https://files.catbox.moe/18rgm9.webp",
+                "https://files.catbox.moe/tm6476.webp",
+                "https://files.catbox.moe/jzaf6v.webp",
+                "https://files.catbox.moe/u4ejfz.webp",
+                "https://files.catbox.moe/phoc4x.webp",
+                "https://files.catbox.moe/sxgroy.webp",
+                "https://files.catbox.moe/epjmcw.webp",
+                "https://files.catbox.moe/6g4n36.webp",
+                "https://files.catbox.moe/7nekfq.webp",
+                "https://files.catbox.moe/v2cpmq.webp",
+                "https://files.catbox.moe/gh9wra.webp",
+                "https://files.catbox.moe/3x1r2v.webp",
+                "https://files.catbox.moe/ajixbh.webp",
+                "https://files.catbox.moe/thqz8r.webp",
+                "https://files.catbox.moe/727uh4.webp",
+                "https://files.catbox.moe/1tcras.webp",
+                "https://files.catbox.moe/y0og0w.webp",
+                "https://files.catbox.moe/nadkz5.webp",
+                "https://files.catbox.moe/hwaysh.webp",
+                "https://files.catbox.moe/xyxir1.webp",
+                "https://files.catbox.moe/rqfvt7.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
