@@ -7,6 +7,54 @@
     },
     "chapters": [
         {
+            "ch_num": 12.0,
+            "release_date": "2026-02-25",
+            "images": [
+                "https://files.catbox.moe/4dc122.webp",
+                "https://files.catbox.moe/e4lihr.webp",
+                "https://files.catbox.moe/9nqb5x.webp",
+                "https://files.catbox.moe/cvz2d7.webp",
+                "https://files.catbox.moe/wkv3a5.webp",
+                "https://files.catbox.moe/7m3q3f.webp",
+                "https://files.catbox.moe/igy56i.webp",
+                "https://files.catbox.moe/m3iylu.webp",
+                "https://files.catbox.moe/yq8v9b.webp"
+            ]
+        },
+        {
+            "ch_num": 11.0,
+            "release_date": "2026-02-25",
+            "images": [
+                "https://files.catbox.moe/oixj3e.webp",
+                "https://files.catbox.moe/dek5l6.webp",
+                "https://files.catbox.moe/ru7k0n.webp",
+                "https://files.catbox.moe/p49kmr.webp",
+                "https://files.catbox.moe/3t074d.webp",
+                "https://files.catbox.moe/3xy4ow.webp",
+                "https://files.catbox.moe/qcdi3d.webp",
+                "https://files.catbox.moe/vs81in.webp",
+                "https://files.catbox.moe/5jzk18.webp",
+                "https://files.catbox.moe/yq8v9b.webp"
+            ]
+        },
+        {
+            "ch_num": 10.0,
+            "release_date": "2026-02-25",
+            "images": [
+                "https://files.catbox.moe/fa6lpw.jpg",
+                "https://files.catbox.moe/9rsme8.jpg",
+                "https://files.catbox.moe/rn06wr.jpg",
+                "https://files.catbox.moe/k3bwfa.jpg",
+                "https://files.catbox.moe/pve29q.jpg",
+                "https://files.catbox.moe/670vz1.jpg",
+                "https://files.catbox.moe/yucc17.jpg",
+                "https://files.catbox.moe/dyp2o8.jpg",
+                "https://files.catbox.moe/puviub.jpg",
+                "https://files.catbox.moe/h74bn0.jpg",
+                "https://files.catbox.moe/lb8kd3.jpg"
+            ]
+        },
+        {
             "ch_num": 9.0,
             "release_date": "2026-02-25",
             "images": [
