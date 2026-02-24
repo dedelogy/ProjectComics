@@ -1,5 +1,12 @@
 [
   {
+    "title": "Gadis Zodiak",
+    "slug": "gadis-zodiak",
+    "cover": "https://files.catbox.moe/lqs4f9.webp",
+    "last_updated": "2026-02-25T04:59:31.274676",
+    "total_chapters": 35
+  },
+  {
     "title": "Debut Or Die",
     "slug": "debut-or-die",
     "cover": "https://files.catbox.moe/qas5n7.webp",
@@ -19,13 +26,6 @@
     "cover": "https://files.catbox.moe/0v1h9t.webp",
     "last_updated": "2026-02-22T03:55:29.043379",
     "total_chapters": 33
-  },
-  {
-    "title": "Gadis Zodiak",
-    "slug": "gadis-zodiak",
-    "cover": "https://files.catbox.moe/lqs4f9.webp",
-    "last_updated": "2026-02-22T02:44:33.640539",
-    "total_chapters": 34
   },
   {
     "title": "Kesurupan Iblis",
