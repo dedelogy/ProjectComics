@@ -2,7 +2,34 @@
     "slug": "pisau-bedah-ilahi",
     "title": "Pisau Bedah Ilahi",
     "cover": "https://files.catbox.moe/wk4mon.png",
-    "metadata": {},
-    "chapters": [],
+    "metadata": {
+        "synopsis": "Park Sang-woo adalah seorang kepala bedah kardiotoraks yang telah melakukan apa pun untuk meraih kesuksesan. Namun, hidupnya berubah drastis karena kecelakaan yang tidak menguntungkan. Tanpa diduga kembali ke masa magang mudanya, ia memperoleh kemampuan khusus untuk melihat sisa masa hidup pasiennya, dan menggunakan kemampuan ini untuk memulai kehidupan keduanya sebagai dokter sejati, jalan yang selama ini dijauhinya."
+    },
+    "chapters": [
+        {
+            "ch_num": 1.0,
+            "release_date": "2026-02-25",
+            "images": [
+                "https://files.catbox.moe/2sdwdh.webp",
+                "https://files.catbox.moe/phxq3o.webp",
+                "https://files.catbox.moe/aayhyw.webp",
+                "https://files.catbox.moe/jjh7kp.webp",
+                "https://files.catbox.moe/h7jpai.webp",
+                "https://files.catbox.moe/o9u9yi.webp",
+                "https://files.catbox.moe/76jryh.webp",
+                "https://files.catbox.moe/imkgy2.webp",
+                "https://files.catbox.moe/3g9j9s.webp",
+                "https://files.catbox.moe/5yb85x.webp",
+                "https://files.catbox.moe/l1ev55.webp",
+                "https://files.catbox.moe/4h5nei.webp",
+                "https://files.catbox.moe/uuez7l.webp",
+                "https://files.catbox.moe/zd93pc.webp",
+                "https://files.catbox.moe/t7vdop.webp",
+                "https://files.catbox.moe/263a1c.webp",
+                "https://files.catbox.moe/hoaj8k.webp",
+                "https://files.catbox.moe/v34ks7.webp"
+            ]
+        }
+    ],
     "last_updated": ""
 }
