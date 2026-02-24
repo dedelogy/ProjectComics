@@ -1,5 +1,12 @@
 [
   {
+    "title": "Debut Or Die",
+    "slug": "debut-or-die",
+    "cover": "https://files.catbox.moe/qas5n7.webp",
+    "last_updated": "2026-02-25T05:07:07.040624",
+    "total_chapters": 102
+  },
+  {
     "title": "Karyawan Level Bawah Yang Bisa Segalanya",
     "slug": "karyawan-level-bawah-yang-bisa-segalanya",
     "cover": "https://files.catbox.moe/ua3iin.jpg",
@@ -19,13 +26,6 @@
     "cover": "https://files.catbox.moe/lqs4f9.webp",
     "last_updated": "2026-02-25T04:59:31.274676",
     "total_chapters": 35
-  },
-  {
-    "title": "Debut Or Die",
-    "slug": "debut-or-die",
-    "cover": "https://files.catbox.moe/qas5n7.webp",
-    "last_updated": "2026-02-22T06:47:26.513505",
-    "total_chapters": 102
   },
   {
     "title": "Kesurupan Iblis",
@@ -472,6 +472,13 @@
     "title": "Panen Kita Melimpah, Raja Iblis!",
     "slug": "panen-kita-melimpah-raja-iblis",
     "cover": "",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
+    "title": "Pisau Bedah Ilahi",
+    "slug": "pisau-bedah-ilahi",
+    "cover": "https://files.catbox.moe/wk4mon.png",
     "last_updated": "",
     "total_chapters": 0
   },
