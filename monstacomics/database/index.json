@@ -1,5 +1,12 @@
 [
   {
+    "title": "Pisau Bedah Ilahi",
+    "slug": "pisau-bedah-ilahi",
+    "cover": "https://files.catbox.moe/wk4mon.png",
+    "last_updated": "2026-02-25T06:19:51.526632",
+    "total_chapters": 61
+  },
+  {
     "title": "Debut Or Die",
     "slug": "debut-or-die",
     "cover": "https://files.catbox.moe/qas5n7.webp",
@@ -371,6 +378,13 @@
     "total_chapters": 0
   },
   {
+    "title": "Hidangan Kelas Dewa",
+    "slug": "hidangan-kelas-dewa",
+    "cover": "https://files.catbox.moe/5itndl.png",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
     "title": "Hiding A Logistics Center In The Apocalypse",
     "slug": "hiding-a-logistics-center-in-the-apocalypse",
     "cover": "",
@@ -474,13 +488,6 @@
     "cover": "",
     "last_updated": "",
     "total_chapters": 0
-  },
-  {
-    "title": "Pisau Bedah Ilahi",
-    "slug": "pisau-bedah-ilahi",
-    "cover": "https://files.catbox.moe/wk4mon.png",
-    "last_updated": "",
-    "total_chapters": 60
   },
   {
     "title": "Reborn Rich",
