@@ -1,5 +1,12 @@
 [
   {
+    "title": "Hidangan Kelas Dewa",
+    "slug": "hidangan-kelas-dewa",
+    "cover": "https://files.catbox.moe/5itndl.png",
+    "last_updated": "2026-02-25T07:25:02.329016",
+    "total_chapters": 36
+  },
+  {
     "title": "Pisau Bedah Ilahi",
     "slug": "pisau-bedah-ilahi",
     "cover": "https://files.catbox.moe/wk4mon.png",
@@ -336,6 +343,13 @@
     "total_chapters": 153
   },
   {
+    "title": "Aktor Penyerap Naskah",
+    "slug": "aktor-penyerap-naskah",
+    "cover": "https://files.catbox.moe/16c79x.png",
+    "last_updated": "",
+    "total_chapters": 0
+  },
+  {
     "title": "Anak Haram Penyerap Ingatan Senjata",
     "slug": "anak-haram-penyerap-ingatan-senjata",
     "cover": "",
@@ -376,13 +390,6 @@
     "cover": "",
     "last_updated": "",
     "total_chapters": 0
-  },
-  {
-    "title": "Hidangan Kelas Dewa",
-    "slug": "hidangan-kelas-dewa",
-    "cover": "https://files.catbox.moe/5itndl.png",
-    "last_updated": "",
-    "total_chapters": 35
   },
   {
     "title": "Hiding A Logistics Center In The Apocalypse",
